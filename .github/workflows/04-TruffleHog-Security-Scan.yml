@@ -1,9 +1,11 @@
 name: 04-TruffleHog-Security-Scan
 on:
-    pull_request:
-        branches:
-            - main
-            - develop
+  #Only manual trigger for now
+  # TODO analyse what to enable    
+  #pull_request:
+    #    branches:
+    #        - main
+    #        - develop
     workflow_dispatch:
 jobs:
   trufflehog_scan:
