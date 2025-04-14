@@ -1,2 +1,27 @@
-# This is a # Default codeowners for the repository
-*
+# CODEOWNERS for autoreview assigning in github
+/.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/application-examples-reviewers
+
+# Applications
+/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/application-examples-reviewers       
+/projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/application-examples-reviewers
+
+/projects/circuitpython/ @SiliconLabsSoftware/application-examples-reviewers
+/projects/energy_harvesting/ @SiliconLabsSoftware/application-examples-reviewers
+/projects/platform/ @silabs-Joe @SiliconLabsSoftware/application-examples-reviewers
+/projects/zephyr/   @SiliconLabsSoftware/application-examples-reviewers
+/projects/zigbee/   @SiliconLabsSoftware/application-examples-reviewers
+
+# TBD
+# /projects/bluetooth/bluetooth_mesh_stack_features/  @silabs-juha
+# /projects/bluetooth/bluetooth_peripherals/          @silabs-juha
+# /projects/bluetooth/bluetooth_stack_features/       @silabs-juha
+# /projects/proprietary/  @silabs-TiborL
+# /projects/wisun/
+# /projects/wifi/
+# /projects/openthread/
+# /projects/matter/
+# /projects/hardware/
+# /projects/iot_utilities/
+# /projects/z_wave/
+# /projects/middleware/nfc/
+# /projects/training/

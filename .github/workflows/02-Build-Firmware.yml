@@ -3,9 +3,11 @@ name: 02-Build-Firmware
 ## It is recommended to run this job on a self-hosted runner for non public repository
 ## Uncomment the needed runs-on command.
 on:
-  pull_request:
-    branches:
-      - main
+  #Only manual trigger for now
+ # TODO analyse what to enable  
+ # pull_request:
+ #   branches:
+ #     - main
   workflow_dispatch:
     inputs:
       branch:

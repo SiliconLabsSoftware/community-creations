@@ -1,14 +1,16 @@
 name: 00-Check-Code-Convention
 on:
-  push:
-    branches-ignore:
-      - main
-      - "tests/**"
-  pull_request:
-    branches:
-      - main
-      - develop
-      - "release/**"
+#Only manual trigger for now
+# TODO analyse what to enable  
+#  push:
+#    branches-ignore:
+#      - main
+#      - "tests/**"
+#  pull_request:
+#    branches:
+#      - main
+#      - develop
+#      - "release/**"
   workflow_dispatch:
     inputs:
       branch:
