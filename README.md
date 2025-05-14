@@ -1,74 +1,60 @@
-# Developer Services template project
-** TODO ** Put project introduction here. 1-2 sentence about the project.
-## How to use the template
-1. Import the [basic ruleset](https://github.com/SiliconLabsSoftware/devs-template/blob/main/.github/rulesets/Silabs-basic-public-ruleset.json). Follow the official GitHub [guide](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-rulesets-for-repositories-in-your-organization#importing-a-ruleset).
-2. Update if necessary the [issue_templates](.github/ISSUE_TEMPLATE/) and the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md)
-3. Create your sw projects under [projects/](projects/) folder.
-4. Check [.gitignore](.gitignore) file and modify it if it is necessary
-5. Check the [./Dockerfile](./Dockerfile) and extend it if necessary
-6. Make sure that the whole project can be compiled with a single "make all" command.  
-   also implement "make clean"
-7. Fill out the [CODEOWNERS](./.github/CODEOWNERS) file. Here is the official github [guide](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
-8. Add github personal access token named "PERSONAL_ACCESS_TOKEN" as a repository secret. It is necessary for CLA signature workflow.
-9. Check the available [workflows](./.github/workflows) and adjust them according to the repo types (internal or public)
-10. Update this Readme file and remove this list from it.
+# 🛠️ Silicon Labs Community Creations
 
-## Table of Contents
-- [Developer Services template project](#developer-services-template-project)
-  - [How to use the template](#how-to-use-the-template)
-  - [Table of Contents](#table-of-contents)
-  - [Hardware requirements](#hardware-requirements)
-  - [Hardware Setup](#hardware-setup)
-  - [Build environment setup](#build-environment-setup)
-    - [Docker](#docker)
-    - [Windows](#windows)
-    - [Linux](#linux)
-    - [MacOS](#macos)
-  - [Debug environment](#debug-environment)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Secrets](#secrets)
+Welcome to the **Silicon Labs Community Creations** repository! 🎉  
+This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies. Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
 
-## Hardware requirements
-** TODO ** List the required hw components.
+## 🚀 What's This About?
 
-## Hardware Setup
-** TODO ** Create a block diagram about the components.
+At Silicon Labs, we believe in the power of community-driven innovation. This repository is a hub for developers, makers, and hobbyists to:
 
-## Build environment setup
-** TODO ** Add steps here how to create a build environment. Remove the not supported platforms.
-### Docker
-Using Docker for the build environment has several advantages:
-- **Consistency**: Ensures the build environment is the same across all development machines.
-- **Isolation**: Keeps the build environment isolated from the host machine, avoiding conflicts.
-- **Portability**: Allows the build environment to be easily shared and reproduced.
-- **Scalability**: Simplifies scaling the build process across multiple machines.
+- Share their projects built with SiLabs hardware or software
+- Explore what others are building in the community
+- Inspire and get inspired
+- Learn and collaborate
 
-To set up the Docker-based build environment, follow these steps:
-1. Install Docker on your machine. Only Linux and MacOS platforms are supported for now.
-2. Clone the repository.
-3. Build the Docker image using the provided [Dockerfile](./Dockerfile).
-4. Run the Docker container with the necessary configurations.
+## 💡 Who Can Contribute?
 
-### Windows
-** TODO ** With a numbered list define the process how to set up a development environment.
+Anyone! Whether you're a seasoned engineer, student, or hobbyist, if you've created something cool using Silicon Labs products, we'd love to feature it here.
 
-### Linux
-** TODO ** With a numbered list define the process how to set up a development environment.
+## 📦 What Kind of Projects Can I Submit?
 
-### MacOS
-** TODO ** With a numbered list define the process how to set up a development environment.
+You can share any project that involves Silicon Labs products or tools, including (but not limited to):
 
-## Debug environment
-**TODO**
-Explain how can a developer debug this software project. Pictures are recommended.
-## Contributing
-Please follow the [CONTRIBUTING](./.github/CONTRIBUTING.md) guideline.
+- Wireless & RF applications (Zigbee, Bluetooth, Wi-Fi, etc.)
+- Embedded software for SiLabs MCUs
+- IoT sensors and smart devices
+- Demos, prototypes
+- Open source libraries or tools that extend SiLabs platforms
 
-## License
-See the [LICENSE.md](./LICENSE.md) file for details.
+## 📥 How to Contribute
 
-## Secrets
-The following secrets are required for this project:
-- `PERSONAL_ACCESS_TOKEN`: Needed for the CLA signature automation workflow **only for public projects**
-- `SONAR_TOKEN`: Token to access Sonarqube servers
+1. **Fork this repository** and create a new folder in the `projects/` directory under the used technology.
+2. **Name the folder** after your project: `projects/bluetooth/my-awesome-project`
+3. Include the following in your project folder:
+    - `README.md` – A description of your project, how it works, and how to reproduce it.
+    - Code, diagrams, assets, or other relevant files.
+    - (Optional) Images, links to videos, or GIFs to show your project in action. (Avoid uploading large files) 
+4. **Submit a pull request** with a brief explanation of your project.
+
+For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## ✨ Highlighted Projects
+
+We regularly highlight standout community creations! If your project gets featured, we'll share it on our website, newsletters, and social channels (with your permission).
+
+## 🙌 Join the Community
+
+- 💬 [Silicon Labs Community Forum](https://www.silabs.com/community)
+- 🧠 [Developer Documentation](https://docs.silabs.com/)
+- 📣 [Follow us on Twitter](https://twitter.com/siliconlabs)
+
+## 📜 License
+
+All community submissions should include a license file. We recommend using [MIT](https://opensource.org/licenses/MIT) or [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
+To enable us to feature it on our repository, a [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md) needs to be signed during the Pull Request process. 
+
+---
+
+Let’s build the future together. One project at a time. 🔧🌍  
+**– The Silicon Labs Team**
+
