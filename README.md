@@ -36,7 +36,7 @@ You can share any project that involves Silicon Labs products or tools, includin
     - (Optional) Images, links to videos, or GIFs to show your project in action. (Avoid uploading large files) 
 4. **Submit a pull request** with a brief explanation of your project.
 
-For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For detailed contribution guidelines, see [CONTRIBUTING.md](https://github.com/SiliconLabsSoftware/community-creations/blob/main/.github/CONTRIBUTING.md).
 
 ## ✨ Highlighted Projects
 
