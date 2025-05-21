@@ -1,9 +1,9 @@
-# 🛠️ Silicon Labs Community Creations
+# Silicon Labs Community Creations
 
-Welcome to the **Silicon Labs Community Creations** repository! 🎉  
+Welcome to the **Silicon Labs Community Creations** repository!   
 This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies. Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
 
-## 🚀 What's This About?
+## What's This About?
 
 At Silicon Labs, we believe in the power of community-driven innovation. This repository is a hub for developers, makers, and hobbyists to:
 
@@ -12,11 +12,11 @@ At Silicon Labs, we believe in the power of community-driven innovation. This re
 - Inspire and get inspired
 - Learn and collaborate
 
-## 💡 Who Can Contribute?
+## Who Can Contribute?
 
 Anyone! Whether you're a seasoned engineer, student, or hobbyist, if you've created something cool using Silicon Labs products, we'd love to feature it here.
 
-## 📦 What Kind of Projects Can I Submit?
+## What Kind of Projects Can I Submit?
 
 You can share any project that involves Silicon Labs products or tools, including (but not limited to):
 
@@ -26,7 +26,7 @@ You can share any project that involves Silicon Labs products or tools, includin
 - Demos, prototypes
 - Open source libraries or tools that extend SiLabs platforms
 
-## 📥 How to Contribute
+## How to Contribute
 
 1. **Fork this repository** and create a new folder in the `projects/` directory under the used technology.
 2. **Name the folder** after your project: `projects/bluetooth/my-awesome-project`
@@ -38,17 +38,17 @@ You can share any project that involves Silicon Labs products or tools, includin
 
 For detailed contribution guidelines, see [CONTRIBUTING.md](https://github.com/SiliconLabsSoftware/community-creations/blob/main/.github/CONTRIBUTING.md).
 
-## ✨ Highlighted Projects
+## Highlighted Projects
 
 We regularly highlight standout community creations! If your project gets featured, we'll share it on our website, newsletters, and social channels (with your permission).
 
-## 🙌 Join the Community
+## Join the Community
 
-- 💬 [Silicon Labs Community Forum](https://www.silabs.com/community)
-- 🧠 [Developer Documentation](https://docs.silabs.com/)
-- 📣 [Follow us on LinkedIn](https://www.linkedin.com/company/siliconlabs)
+- [Silicon Labs Community Forum](https://www.silabs.com/community)
+- [Developer Documentation](https://docs.silabs.com/)
+- [Follow us on LinkedIn](https://www.linkedin.com/company/siliconlabs)
 
-## 📜 License
+## License
 
 All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.  
 Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.   
@@ -56,6 +56,6 @@ To enable us to feature it on our repository, a [Contributor License Agreement](
 
 ---
 
-Let’s build the future together. One project at a time. 🔧🌍  
+Let’s build the future together. One project at a time.   
 **– The Silicon Labs Team**
 
