@@ -46,7 +46,7 @@ We regularly highlight standout community creations! If your project gets featur
 
 - 💬 [Silicon Labs Community Forum](https://www.silabs.com/community)
 - 🧠 [Developer Documentation](https://docs.silabs.com/)
-- 📣 [Follow us on Twitter](https://twitter.com/siliconlabs)
+- 📣 [Follow us on LinkedIn](https://www.linkedin.com/company/siliconlabs)
 
 ## 📜 License
 
