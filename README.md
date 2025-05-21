@@ -50,7 +50,8 @@ We regularly highlight standout community creations! If your project gets featur
 
 ## 📜 License
 
-All community submissions should include a license file. We recommend using [MIT](https://opensource.org/licenses/MIT) or [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
+All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects. 
+Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs. 
 To enable us to feature it on our repository, a [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md) needs to be signed during the Pull Request process. 
 
 ---
