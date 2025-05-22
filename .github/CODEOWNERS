@@ -1,15 +1,15 @@
 # CODEOWNERS for autoreview assigning in github
-/.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/application-examples-reviewers
+/.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # Applications
-/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/application-examples-reviewers       
-/projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/application-examples-reviewers
+/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer       
+/projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/mmte-application-examples-maintainer
 
-/projects/circuitpython/ @SiliconLabsSoftware/application-examples-reviewers
-/projects/energy_harvesting/ @SiliconLabsSoftware/application-examples-reviewers
-/projects/platform/ @silabs-Joe @SiliconLabsSoftware/application-examples-reviewers
-/projects/zephyr/   @SiliconLabsSoftware/application-examples-reviewers
-/projects/zigbee/   @SiliconLabsSoftware/application-examples-reviewers
+/projects/circuitpython/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/energy_harvesting/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/platform/ @silabs-Joe @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/zephyr/   @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/zigbee/   @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/z_wave/ @laurge
 
 # TBD
