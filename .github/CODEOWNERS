@@ -10,6 +10,7 @@
 /projects/platform/ @silabs-Joe @SiliconLabsSoftware/application-examples-reviewers
 /projects/zephyr/   @SiliconLabsSoftware/application-examples-reviewers
 /projects/zigbee/   @SiliconLabsSoftware/application-examples-reviewers
+/projects/z_wave/ @laurge
 
 # TBD
 # /projects/bluetooth/bluetooth_mesh_stack_features/  @silabs-juha
@@ -22,6 +23,6 @@
 # /projects/matter/
 # /projects/hardware/
 # /projects/iot_utilities/
-# /projects/z_wave/
+
 # /projects/middleware/nfc/
 # /projects/training/
