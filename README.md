@@ -20,7 +20,7 @@ Anyone! Whether you're a seasoned engineer, student, or hobbyist, if you've crea
 
 You can share any project that involves Silicon Labs products or tools, including (but not limited to):
 
-- Wireless & RF applications (Zigbee, Bluetooth, Wi-Fi, etc.)
+- Wireless applications (Zigbee, Bluetooth, Wi-Fi, Thread, Matter etc.)
 - Embedded software for SiLabs MCUs
 - IoT sensors and smart devices
 - Demos, prototypes
