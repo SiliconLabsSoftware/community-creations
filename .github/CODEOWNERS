@@ -1,8 +1,11 @@
-# CODEOWNERS for autoreview assigning in github
+# CODEOWNERS for auto review assigning in github
+
+* @SiliconLabsSoftware/mmte-application-examples-maintainer
 /.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # Applications
-/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer       
+
+/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 /projects/circuitpython/ @SiliconLabsSoftware/mmte-application-examples-maintainer
@@ -23,6 +26,5 @@
 # /projects/matter/
 # /projects/hardware/
 # /projects/iot_utilities/
-
 # /projects/middleware/nfc/
 # /projects/training/

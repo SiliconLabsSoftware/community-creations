@@ -7,7 +7,7 @@ Closes #<issue_number>
 
 ## Changes Made
 <!-- List the changes made in this pull request. -->
-- 
+-
 
 ## Checklist
 - [ ] I have read the [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).

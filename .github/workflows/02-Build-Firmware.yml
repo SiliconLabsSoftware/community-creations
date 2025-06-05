@@ -4,7 +4,7 @@ name: 02-Build-Firmware
 ## Uncomment the needed runs-on command.
 on:
   #Only manual trigger for now
- # TODO analyse what to enable  
+ # TODO analyse what to enable
  # pull_request:
  #   branches:
  #     - main
@@ -26,16 +26,16 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.inputs.branch }}
-      
+
       - name: Build Docker Image
         run: docker build -t ${{ github.repository }}-build-env:latest Dockerfile
-      
+
       - name: Run Docker Container
         run: docker run --rm -v ${{ github.workspace }}:/workspace ${{ github.repository }}-build-env:latest /bin/bash -c "cd /workspace && make all"
-      
+
       - name: Remove Docker image
         run: docker image
-      
+
       - name: Remove Docker Image
         if: always()
         run: docker rmi ${{ github.repository }}-build-env:latest
