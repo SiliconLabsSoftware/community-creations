@@ -48,12 +48,19 @@ We regularly highlight standout community creations! If your project gets featur
 - [Developer Documentation](https://docs.silabs.com/)
 - [Follow us on LinkedIn](https://www.linkedin.com/company/siliconlabs)
 
+## Disclaimer
+
+This repository contains *Community Creations*—code, examples, and other contributions developed and maintained by the community. Unless explicitly stated otherwise, all content is considered to be of **EXPERIMENTAL QUALITY**. The code has not undergone formal validation and is provided **as-is**, without any warranty of functionality, completeness, or reliability.
+
+Silicon Labs reviews submitted pull requests solely for **compliance with coding standards and the contribution guide**, but **does not perform additional testing**. Consequently, Silicon Labs makes no guarantees regarding the correctness, quality, or suitability of any content for a specific application.
+
+Use of this code is entirely at your own risk. It is **not recommended** for deployment in production environments.
+
+While community contributions are welcomed and appreciated, Silicon Labs offers **no commitment** to maintain, support, or update any part of this repository. Silicon Labs may, at its sole discretion, modify or remove community projects without notice.
+
 ## License
 
-All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
-Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.
-
----
+This repository is licensed under the terms specified in the [LICENSE.md](./LICENSE.md) file. Please review it for details regarding usage rights and limitations.  
 
 Let’s build the future together. One project at a time.
 **– The Silicon Labs Team**
