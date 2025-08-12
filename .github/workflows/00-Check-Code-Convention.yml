@@ -20,12 +20,12 @@ jobs:
       run: echo "Triggered by ${{github.event_name}} event"
     - name: Check Branch Input
       run: |
-        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          if [ -z "${{ github.event.inputs.branch }}" ]; then
-            echo "Branch input is required for manual trigger."
-            exit 1
-          fi
-        fi
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              if [ -z "${{ github.event.inputs.branch }}" ]; then
+                echo "Branch input is required for manual trigger."
+                exit 1
+              fi
+            fi
     - name: Checkout
       uses: actions/checkout@v4.1.7
       with:
@@ -34,28 +34,47 @@ jobs:
         fetch-depth: 0
     - name: Log Current Branch and Commit
       run: |
-        echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
-        echo "Current commit: $(git rev-parse HEAD)"
+          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
+          echo "Current commit: $(git rev-parse HEAD)"
     - name: Install commit check tools
       run: |
-        echo "Installing pre-commit ..."
-        python3 -m pip install pre-commit
-        echo "Installing uncrustify 0.64 from source code  ..."
-        sudo apt-get install --no-install-recommends -y\
-          binutils ca-certificates git cmake make \
-          gcc g++ binutils libc6-dev
-        echo "Cloning Uncrustify repository..."
-        git clone -b uncrustify-0.64 --single-branch https://github.com/uncrustify/uncrustify.git
-        echo "Building and installing Uncrustify..."
-        mkdir ./uncrustify/build && cd ./uncrustify/build
-        cmake -D CMAKE_INSTALL_PREFIX=/usr/local -D CMAKE_BUILD_TYPE=RelWithDebInfo ../
-        sudo make -j "$(nproc)"
-        sudo make install
-        echo "Uncrustify has been installed successfully!"
-        cd ../../
-        sudo cp ./.github/coding-convention-tool/tools/uncrustify/uncrustify.cfg ./uncrustify/uncrustify.cfg
-        echo "Install clang-tidy"
-        sudo apt-get install clang-tidy
+          echo "Installing pre-commit ..."
+          python3 -m pip install pre-commit
+          echo "Installing uncrustify 0.64 from source code  ..."
+          sudo apt-get install --no-install-recommends -y\
+            binutils ca-certificates git cmake make \
+            gcc g++ binutils libc6-dev
+          echo "Cloning Uncrustify repository..."
+          git clone -b uncrustify-0.64 --single-branch https://github.com/uncrustify/uncrustify.git
+          echo "Building and installing Uncrustify..."
+          mkdir ./uncrustify/build && cd ./uncrustify/build
+          cmake -D CMAKE_INSTALL_PREFIX=/usr/local -D CMAKE_BUILD_TYPE=RelWithDebInfo ../
+          sudo make -j "$(nproc)"
+          sudo make install
+          echo "Uncrustify has been installed successfully!"
+          cd ../../
+          sudo cp ./.github/coding-convention-tool/tools/uncrustify/uncrustify.cfg ./uncrustify/uncrustify.cfg
+          echo "Install clang-tidy"
+          sudo apt-get install clang-tidy
+    - name: Apply custom formatting configuration
+      run: |
+        echo "Applying custom formatting configuration..."
+        chmod +x ./.github/coding-convention-tool/project_custom_config_handler.sh
+        ./.github/coding-convention-tool/project_custom_config_handler.sh
+    - name: Modify pre-commit config to exclude folders
+      run: |
+        echo "Installing yq for YAML processing..."
+        sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+        sudo chmod +x /usr/local/bin/yq
+        echo "Modifying .pre-commit-config.yaml to exclude specific folders..."
+        config_file=".github/coding-convention-tool/.pre-commit-config.yaml"
+        new_patterns=".*lis2d(e|w)12_reg\.(c|h)"
+        current_exclude=$(yq '.exclude' "$config_file")
+        updated_exclude="${current_exclude}|${new_patterns}"
+        yq -i ".exclude = \"$updated_exclude\"" "$config_file"
+        echo "Successfully updated .pre-commit-config.yaml with exclude patterns"
+        echo "New exclude pattern: $updated_exclude"
+
     - name: Run test
       run: |
         pre-commit install --config .github/coding-convention-tool/.pre-commit-config.yaml
