@@ -60,6 +60,9 @@ While community contributions are welcomed and appreciated, Silicon Labs offers 
 
 ## License
 
+All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
+Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.
+
 This repository is licensed under the terms specified in the [LICENSE.md](./LICENSE.md) file. Please review it for details regarding usage rights and limitations.  
 
 Let’s build the future together. One project at a time.
