@@ -46,27 +46,50 @@ https://www.seeedstudio.com/pcb-assembly.html
 ## 🚀 How to Enter
 Here’s what you need to do by October 31, 2025 at 11 p.m. Central Time
 
-**Step 1**
+**Project Submission Guidelines – Seeed Studio/Mouser IoT Challenge**  
+All participants must submit their project through the official submission portal:  
+[https://community.silabs.com/s/create-projects](https://community.silabs.com/s/create-projects)  
+For that you can create a free Silicon Labs [Community account here.](https://community.silabs.com/s/)  
+Each submission must include the following components:
 
-If you don’t already have one, get a Seeed XIAO MG24 Sense dev board [here](https://www.mouser.com/new/seeed-studio/seeed-studio-xiao-mg24-sense-dev-board/)
+**1. Project Title**
+- A clear and concise name that reflects the purpose of your project.
 
-**Step 2**
+**2. Project Description**
+- A written overview that includes:
+    - The problem being addressed.
+    - How the Xiao board is used in the solution. - If you don’t already have one, you can get a Seeed XIAO MG24 Sense dev board [here](https://www.mouser.com/new/seeed-studio/seeed-studio-xiao-mg24-sense-dev-board/)
+    - Any unique or innovative aspects of the project.
 
-Create a free Silicon Labs [Community account](https://community.silabs.com/)
+**3. System Diagram**
+- A visual representation of how the components interact (e.g., sensors, Xiao board, connectivity, cloud services, etc.).
 
-**Step 3**
+**4. Recorded Demo Video**
+- A YouTube link to a recorded demo (max 5 minutes).
+- The video must clearly demonstrate **all features** of the project in action.
+- It should show the project working end-to-end, with no hidden or skipped functionality.
+- Smooth execution and clarity are part of the judging criteria.
 
-Build and submit your project
-
-- Publish it in the [Projects](https://community.silabs.com/s/projects?language=en_US) section of the community - Add visuals! Show off your work with photos, diagrams, or video. The more the better!
-- Include a short write-up of at least 150 words
+**5. Code Repository (Mandatory)**
 - Add 'silicon-labs' and 'XIAO-Showdown' [GitHub Topic tags](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your GitHub repository
 - Fork [Silicon Labs' Community Creations GitHub repo](https://github.com/SiliconLabsSoftware/community-creations), add your GitHub repository URL to XIAO-Showdown-2025.md file below the "Submitted projects" section.
 - If your repository is private, please let us know in the PR about how you would prefer to share your code with the judges.
+- The code must be:
+    - Fully functional and complete.
+    - Well-commented and organized.
+    - Include any necessary documentation or setup instructions.
+- Code quality and commenting will be evaluated as part of the scoring.
 
-**Step 4**
+**6. Images or Screenshots**
+- Include 1–3 high-quality images of your project setup, hardware, or user interface.
 
-Sit back and wait and check out what the rest of your peers have made! We’ll notify the winners by November 7
+**7. Technical Write-Up**
+- A detailed explanation of:
+    - Technologies and components used.
+    - The overall system architecture and IoT functionality.
+    - Brief synopsis of code flow
+    - Challenges encountered and how they were solved.
+    - Considerations for scalability, interoperability, and future improvements.
 
 **Feeling social?**
 
