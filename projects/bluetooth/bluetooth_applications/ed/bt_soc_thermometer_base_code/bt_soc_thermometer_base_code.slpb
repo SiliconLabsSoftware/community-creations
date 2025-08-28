@@ -1,0 +1,10 @@
+---
+parameters:
+- name: "build_dir"
+constants:
+- name: "project_name"
+  value: "bt_soc_thermometer_base_code"
+steps:
+- task: "create_gbl"
+  output: "{{build_dir}}/{{project_name}}.gbl"
+  app: "{{build_dir}}/{{project_name}}.out"
