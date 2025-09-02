@@ -216,16 +216,16 @@ Another line of really good description.
 - Step by step guide on the hardware and software setup of the project
 - Screenshot of projects or a demo video detailing progress of the build during its various steps
 - Screenshots or video demonstrating user interface and features of the project in action
-- 
 
 **5. Code Repository (Mandatory)**
 - The code must be:
     - Fully functional and complete.
     - Well-commented and organized.
     - Include any necessary documentation or setup instructions.
-- Code quality and commenting will be evaluated as part of the PR review.
+- Quality of the Code and comments will be evaluated as part of the PR review.
 
 **5. Technical Write-Up**
+   This is not mandatory but highly recommended. 
 - A detailed explanation of:
     - Technologies and components used.
     - The overall system architecture and IoT functionality.
