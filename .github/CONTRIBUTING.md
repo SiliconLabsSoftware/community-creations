@@ -198,7 +198,7 @@ Another line of really good description.
 ```
 
 ## Documentation Requirments
-   For successfull PR review following documentation is required to be part of the project and ideally should be placed in readme.md file of the project repository
+   For successful PR review following documentation is required to be part of the project and ideally should be placed in readme.md file of the project repository
    
 **1. Project Title**
 - A clear and concise name that reflects the purpose of your project.
@@ -226,7 +226,7 @@ Another line of really good description.
 
 **5. Technical Write-Up**
 
-   This is not mandatory but highly recommended. 
+   This is not mandatory but highly recommended.
 - A detailed explanation of:
     - Technologies and components used.
     - The overall system architecture and IoT functionality.
