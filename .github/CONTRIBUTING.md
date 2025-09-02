@@ -199,7 +199,7 @@ Another line of really good description.
 
 ## Documentation Requirements
    For successful PR review following documentation is required to be part of the project and ideally should be placed in readme.md file of the project repository
-   
+
 **1. Project Title**
 - A clear and concise name that reflects the purpose of your project.
 
@@ -248,7 +248,7 @@ What to consider when raising a Pull Request:
 2. **Create Description**
 
    Fill out the pull request template.
-   
+
 3. **Check the Reviewer List**
 
    GitHub assigns reviewers based on the [CODEOWNERS](CODEOWNERS) file.
