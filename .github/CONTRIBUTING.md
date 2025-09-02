@@ -224,7 +224,7 @@ Another line of really good description.
     - Include any necessary documentation or setup instructions.
 - Quality of the Code and comments will be evaluated as part of the PR review.
 
-**5. Technical Write-Up**
+**6. Technical Write-Up**
 
    This is not mandatory but highly recommended.
 - A detailed explanation of:
