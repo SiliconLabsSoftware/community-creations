@@ -197,7 +197,7 @@ A detailed description of what was implemented should be provided.
 Another line of really good description.
 ```
 
-## Documentation Requirments
+## Documentation Requirements
    For successful PR review following documentation is required to be part of the project and ideally should be placed in readme.md file of the project repository
    
 **1. Project Title**
