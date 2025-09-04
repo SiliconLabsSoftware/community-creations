@@ -3,7 +3,7 @@ parameters:
 - name: "build_dir"
 constants:
 - name: "project_name"
-  value: "bt_soc_thermometer_base"
+  value: "bt_soc_thermometer"
 steps:
 - task: "create_gbl"
   output: "{{build_dir}}/{{project_name}}.gbl"

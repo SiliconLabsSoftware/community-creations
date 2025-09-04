@@ -1,6 +1,6 @@
 # Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
-project_name: bt_soc_thermometer_base
-label: bt_soc_thermometer_base
+project_name: bt_soc_thermometer
+label: bt_soc_thermometer
 description: |
   Implements a GATT Server with the Health Thermometer Profile, which enables a Client device to connect and get temperature data. Temperature is read from the Si7021 digital relative humidity and temperature sensor of the WSTK or of the Thunderboard.
 category: Bluetooth Examples
@@ -93,5 +93,5 @@ ui_hints:
   - {path: config/btconf/gatt_configuration.btconf}
   - {path: readme.md, focus: true}
 post_build:
-- {path: bt_soc_thermometer_base.slpb, profile: bt_common}
+- {path: bt_soc_thermometer.slpb, profile: bt_common}
 
