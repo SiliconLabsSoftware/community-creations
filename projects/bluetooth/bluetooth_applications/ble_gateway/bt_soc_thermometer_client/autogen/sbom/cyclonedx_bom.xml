@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-09-04T06:31:14.861329700Z</timestamp>
+    <timestamp>2025-09-04T07:36:10.038321500Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
