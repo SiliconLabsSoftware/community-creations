@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.componentSetup.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
   <folder name="image">
-    <file name="readme_img0.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img0.png"/>
-    <file name="readme_img1.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img1.png"/>
-    <file name="readme_img2.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img2.png"/>
-    <file name="readme_img3.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img3.png"/>
-    <file name="readme_img4.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img4.png"/>
-    <file name="readme_img5.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img5.png"/>
-    <file name="readme_img6.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img6.png"/>
-    <file name="readme_img7.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img7.png"/>
-    <file name="readme_img8.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img8.png"/>
-    <file name="readme_img9.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/image/readme_img9.png"/>
+    <file name="readme_img0.png" linked="false" uri="studio:/project/image/readme_img0.png"/>
+    <file name="readme_img1.png" linked="false" uri="studio:/project/image/readme_img1.png"/>
+    <file name="readme_img2.png" linked="false" uri="studio:/project/image/readme_img2.png"/>
+    <file name="readme_img3.png" linked="false" uri="studio:/project/image/readme_img3.png"/>
+    <file name="readme_img4.png" linked="false" uri="studio:/project/image/readme_img4.png"/>
+    <file name="readme_img5.png" linked="false" uri="studio:/project/image/readme_img5.png"/>
+    <file name="readme_img6.png" linked="false" uri="studio:/project/image/readme_img6.png"/>
+    <file name="readme_img7.png" linked="false" uri="studio:/project/image/readme_img7.png"/>
+    <file name="readme_img8.png" linked="false" uri="studio:/project/image/readme_img8.png"/>
+    <file name="readme_img9.png" linked="false" uri="studio:/project/image/readme_img9.png"/>
   </folder>
   <folder name="simplicity_sdk_2025.6.1">
     <folder name="platform">
@@ -1143,9 +1143,9 @@
       </folder>
     </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/app.c"/>
-  <file name="app.h" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/app.h"/>
-  <file name="readme.md" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_thermometer/readme.md"/>
+  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
+  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <file name="app_bm.c" generated="true" linked="false"/>
   <file name="sl_gatt_service_device_information_override.c" generated="true" linked="false"/>
   <file name="main.c" generated="true" linked="false"/>
