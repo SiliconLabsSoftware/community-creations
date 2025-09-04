@@ -25,6 +25,10 @@ This repository is dedicated to the community—created by developers, for devel
 - **bluetooth_peripherals:**
   Examples demonstrating integration of SoC peripherals with the Bluetooth stack.
 
+- **SDK:**
+  - Simplicity Demos v2025.6.1
+  - Simplicity SDK Suite v2025.6.1: Bluetooth 10.1.0, Bluetooth Mesh 9.0.1, Connect 4.1.1, EmberZNet 8.2.1.0, Micrium OS Kernel 5.18.01, OpenThread 2.7.1.0 (GitHub-fb0446f53), Platform 5.2.1.0, RAIL 2.19.1, USB 1.5.1.0, Wi-SUN 2.7.0, Z-Wave SDK 7.24.1.0
+  - Stackless applications(version 1.0.0)
 - **bluetooth_stack_features:**
   Examples showcasing key Bluetooth stack features, including:
   - Advertising
