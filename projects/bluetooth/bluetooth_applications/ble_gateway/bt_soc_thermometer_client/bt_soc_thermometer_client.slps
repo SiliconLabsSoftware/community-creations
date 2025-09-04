@@ -3,7 +3,7 @@
   <descriptors name="">
     <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.sisdk:2025.6.1._2068787729"/>
     <properties key="universalConfig.relativeWorkspacePath" value="..\bt_soc_thermometer_client.slcw"/>
-    <properties key="universalConfig.generationDirectory" value="emptyWorkspaceOutput"/>
+    <properties key="universalConfig.generationDirectory" value=""/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
     <properties key="universalConfig.compSelProjInstanceId" value="1756971371434"/>
   </descriptors>

@@ -1,0 +1,36 @@
+set(SDK_PATH "C:/Users/Admin/SimplicityStudio/SDKs/simplicity_sdk")
+set(COPIED_SDK_PATH "simplicity_sdk_2025.6.1")
+set(PKG_PATH "C:/Users/Admin/.silabs/slt/installs")
+
+add_library(slc_ OBJECT
+)
+
+target_include_directories(slc_ PUBLIC
+   "../autogen"
+)
+
+target_compile_definitions(slc_ PUBLIC
+)
+
+target_link_libraries(slc_ PUBLIC
+)
+target_compile_options(slc_ PUBLIC
+    $<$<COMPILE_LANGUAGE:C>:--cmse>
+    $<$<COMPILE_LANGUAGE:C>:-Ohz>
+    $<$<COMPILE_LANGUAGE:C>:--use_c++_inline>
+    $<$<COMPILE_LANGUAGE:C>:--debug>
+    $<$<COMPILE_LANGUAGE:C>:-e>
+    $<$<COMPILE_LANGUAGE:CXX>:--cmse>
+    $<$<COMPILE_LANGUAGE:CXX>:-Ohz>
+    $<$<COMPILE_LANGUAGE:CXX>:--use_c++_inline>
+    $<$<COMPILE_LANGUAGE:CXX>:--debug>
+    $<$<COMPILE_LANGUAGE:CXX>:-e>
+)
+
+set(post_build_command )
+
+target_link_options(slc_ INTERFACE
+    --map "$<TARGET_FILE_DIR:>/.map"
+)
+
+# BEGIN_SIMPLICITY_STUDIO_METADATA=eJztWgtv2zYQ/iuGMAztGlNJhjWZl6ToEhfwEM+G7XQYqkKgScbmQpEaSeXRIv99Rz0tx27zWOykaBBI4vEjeffxdUfzs9cf9P5oH47CQa838lre58AbtI/fjjrv2+FsVuC1Ag+hwLv2Nsoyw97J4LA9hGJ7by4j0Thn2nAl9wNvC20GXoNJoiiXExCcjN41dwPvzUGgA7kXa/UPI7YB75hpezUk8AZULg+8FNZo7J0qQZluSBy5bJxYNWGyzL4BQEaQ0Fhs2QzGobhgJYZoEhIlT/nEfYKaieYgd5iWf9TyiYqiRHJ71SSaYQsGGT9XzPhjkTCrlJ1WXyGOY8FJjhwLFk5AgQt85Y9taBQJ7ZTpSEXMMh0SwZm0fm6JXyns39DLr6z0MzNnzJ4xCOpBOZGcmfXaM69LYcOcBXuZnYlOGykMOWKnOBHQ+w2Bx0zUJGOFNT1UUQwlxlyANZAN8hhru0AMhggyxVwuyDP0bF4KFCHDoVWDIBdBhxB4cvhubW9u/4Jeoy0Ubm++3t3Z3dnZ/nV2AFJmiOaxs+Ngz59NFZbXbM3Gf8F/moIJNex0+8edw87o73A4Ojnq9MJu7+jkOJ1aH2BKahapc0ZhEp5iYdhG4I0TLiyX7UsiEuqYbn34WImHKtGkkkaKJoKlU7iYeq1uNxU2YN5K08ql+0EQeFNr45bvX1xcFJwAPb4xfj8DIUaUZg7ZyJtLi1mdZEJO03RCUNYuMswmMQLOIyXzOvrK2N+hMEWIY50Wi2lUq+cgAHJSBrkEI93CYqC7LYy6rEH0k3v6Oa7ktLDsIPAqQsB2V+/1xjdC5nca/xcaE3KYLbjf6bsffSMWxQJ2h+dFYOlJ3Nivngy1eRNdZjHFFj8vfp8Mi1BJrCQ4KMM0+Z3E+5BIMycMKIQSE/O8WKym+pdc7SfDdUKK8qtl+eNCJ7R/1C2DuyCYD+9AsjDAS9utgjyA5f79XTxCV/sXosO8DQDB/14MZZ1BdGhZDF54PV0qVHnduaTxWJbdwyb/8bWqezvr16buPKxbn4U77p2GYRbiVi3MHFfUgAUcAvQKPO+JQE65cGRz34kAxSCQZLQU+vNalJF2XZwuFpT1sZ1CMjsiMDahXLWKeeGXCvvrmDSLNus78e+C/l4ae0PKJTopTaUUhhwSXJ6xrF6VCpdiUMF1F8fvXFe5MudYJGw597fRwJkJ1X1FhwKF0j1LUqxpTQGytbui9i8vl2jw6tXWzmp0uMBapq4HFmJN3VCqwC6txutWImYUS8tJTY/UN1p1h2gWMq2VNutSxSEi/ik9XKvpYPinFalA2TiZhIKds/ropMXp5S2ViPAZc5sCsBq51W+pHkuBiHIs0rVxRo1Vtr+0N5q96adVKkLiOOQSVvL6ut1sJoaFsHSVmSvsmyXDpNlMc1apisBykuAJS4MgpSMsyRxPD2Bm8Ra7BJa/wgjHc6SAZP/HfxNlf/vhRe9k1D8ZhUedwUv/hxf5z09/vu22XyKAZahbKzxz2M8pOB/85200ITCfqYXaJNBC0+ABuRJoIhNUugRjbNi8YQ+ojnBNEgEbK4uZpOA9Xd1/Y3k6VkmIeqjg44dsCfdoPo6XjLyH1PVMuqjCogyABD0VeGKWxR6uhWNubKlkOe/+EhvNplRNt8U39cVl07BJBE65WRRqVHY+frfeioMcXbDwjXBQLdy3Gge13RhYiLghSLlfbQWYe3c6yE2zv1rmNGLGgC1NweTETvc31zd87kTeLP4Z0rfCcH3hsfC6D3Hmzk8f9fhmDl6/e7KgRFGuduxz4yg6uOe5TzEoFp/+zItvjpPFB8CDXr89GHXSiwifXSjRCuAdQHSFzxkdWkXO3mPN8Vgw48Qt93AA9weTK+aAomfHKrtOUmS0ig/DI3fXhNur0NCzsLhsUWRfZw93YF1eBVmPBu7aU1aZOwsy7l7GR+/6PzW9QTY==END_SIMPLICITY_STUDIO_METADATA
