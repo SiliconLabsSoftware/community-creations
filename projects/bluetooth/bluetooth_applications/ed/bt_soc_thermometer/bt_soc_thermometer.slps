@@ -12,6 +12,6 @@
     <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205"/>
     <properties key="universalConfig.projectTypeIds" value="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
     <properties key="projectCommon.importModeId" value="LINK_LIBRARIES"/>
-    <properties key="universalConfig.compSelProjInstanceId" value="1756953815119"/>
+    <properties key="universalConfig.compSelProjInstanceId" value="1756969240591"/>
   </descriptors>
 </model:MDescriptors>
