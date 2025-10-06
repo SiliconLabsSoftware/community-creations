@@ -1,0 +1,30 @@
+# 1) Ping / Pong
+python3 uart_tester_v2.py --port COM13 ping
+# Expect: PING_ACK (0x0211) chứa "PONG"
+
+# 2) Version
+python3 uart_tester_v2.py --port COM13 get_version
+# Expect: VERSION_RESP (0x0213) "917-1.0.0|build-1234"
+
+# 3) Wi-Fi scan
+python3 uart_tester_v2.py --port COM13 wifi_scan
+# Expect: WIFI_SCAN_RESP (0x0233) list AP (Router/Home)
+
+# 4) Wi-Fi status (payload 1 byte theo wifi_status_t)
+python3 uart_tester_v2.py --port COM13 wifi_status
+# Expect: WIFI_STATUS_RESP (0x0237) => 0/1/2/3/4/5
+
+# 5) Wi-Fi connect (giả lập CONNECTING→CONNECTED)
+python3 uart_tester_v2.py --port COM13 wifi_connect --ssid MyAP --psk 12345678
+# Expect: 2 khung WIFI_CONNECT_RES (0x0235): trước là 1 (CONNECTING), sau là 2 (CONNECTED)
+
+# 6) MQTT publish (ACK)
+python3 uart_tester_v2.py --port COM13 mqtt_pub --topic test/topic --data "hello"
+# Expect: MQTT_PUB_ACK (0x0249), payload "01 00"
+
+# 7) (Tùy chọn) RAW cho các type chưa có command sẵn
+#    Node list
+python3 uart_tester_v2.py --port COM13 raw --type 0x0260
+#    Stats
+python3 uart_tester_v2.py --port COM13 raw --type 0x0271
+# Expect: lần lượt NODE_LIST_RESP (0x0261) và STATS_RESP (0x0272)
