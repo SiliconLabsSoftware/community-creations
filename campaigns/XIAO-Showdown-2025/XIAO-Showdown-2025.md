@@ -97,7 +97,7 @@ Share it on social and tag @SiliconLabs, @SeeedStudio, and @MouserElec
 
 ## Submitted projects
 - [URL of your Github repo] - [Your project's name]
-
+- [https://github.com/Timo614/Xiao-MG24-Showdown-Dog-Beep-Reinforcer] - [Dog Beep Reinforcer]
 
 ## 🧠 How Judging Works
 Our panel includes experts from Silicon Labs, Mouser, and Seeed Studio. Your submission will be evaluated using the following rubric:
