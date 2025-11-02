@@ -96,7 +96,7 @@ Each submission must include the following components:
 Share it on social and tag @SiliconLabs, @SeeedStudio, and @MouserElec
 
 ## Submitted projects
-- [URL of your Github repo] - [Your project's name]
+- [https://github.com/MedhaIndra/Pet-Tracker] - [Pet Location Tracker]
 
 
 ## 🧠 How Judging Works
