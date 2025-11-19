@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="uc.module.setup.CommonProjectPostBuild.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
+  <file name="sl_si91x_usart_async_2.slpb" builtin="true" generated="true"/>
+  <postbuildStep>$(commander) postbuild &quot;$(project)/$(projectName).slpb&quot; --parameter build_dir:&quot;$(builddir)&quot;</postbuildStep>
+</project>

@@ -1,0 +1,45 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: sl_si91x_usart_async_2
+label: sl_si91x_usart_async_2
+description: |
+  This application demonstrates the usage of the USART (Universal Synchronous Asynchronous Receiver-Transmitter) in asynchronous full-duplex mode,  enabling simultaneous transmission and reception of data. The application highlights how to configure and use the USART to handle  communication tasks efficiently on the Si91x SoC, where data is transmitted and received asynchronously without the need for synchronization signals, facilitating smooth, bidirectional data flow.
+category: example|peripheral
+package: platform
+quality: production
+readme:
+- {path: readme.md}
+- {path: readme.md}
+source:
+- {path: app.c}
+- {path: app.h}
+- {path: usart_async_example.c}
+- {path: usart_async_example.h}
+sdk: {id: simplicity_sdk, version: 2025.6.1}
+toolchain_settings:
+- {value: -Wall -Werror, option: gcc_compiler_option}
+component:
+- {from: wiseconnect3_sdk, id: SIWG917M111MGTBA}
+- {from: wiseconnect3_sdk, id: brd4342a}
+- {from: wiseconnect3_sdk, id: si91x_memory_default_config}
+- {from: wiseconnect3_sdk, id: sl_usart}
+- {from: wiseconnect3_sdk, id: syscalls}
+- {id: brd4002a}
+- {id: sl_main}
+- {id: status}
+other_file:
+- {path: resources/readme/setupdiagram.png}
+- {path: resources/readme/image513d.png}
+- {path: resources/uc_screen/usart_uc.png}
+- {path: resources/readme/output_console_usart_async.png}
+define:
+- {name: SLI_SI91X_MCU_CONFIG_RADIO_BOARD_BASE_VER}
+configuration:
+- {name: SL_USART_MODE, value: SL_USART_MODE_ASYNCHRONOUS}
+ui_hints:
+  highlight:
+  - {path: readme.md, focus: true}
+sdk_extension:
+- {id: wiseconnect3_sdk, version: 3.5.1}
+post_build:
+- {path: sl_si91x_usart_async_2.slpb}
+

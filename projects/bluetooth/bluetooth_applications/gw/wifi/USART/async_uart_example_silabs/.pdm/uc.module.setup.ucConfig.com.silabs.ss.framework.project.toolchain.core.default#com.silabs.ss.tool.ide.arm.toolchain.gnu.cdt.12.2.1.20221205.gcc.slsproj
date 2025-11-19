@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="uc.module.setup.ucConfig.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
+  <folder name="config">
+    <file name="sl_si91x_usart_config.h" generated="true" linked="false"/>
+    <file name="sl_si91x_usart_common_config.h" generated="true" linked="false"/>
+    <file name="FreeRTOSConfig.h" generated="true" linked="false"/>
+    <file name="sl_si91x_dma_config.h" generated="true" linked="false"/>
+    <file name="RTE_Device_917.h" generated="true" linked="false"/>
+    <file name="sl_board_configuration.h" generated="true" linked="false"/>
+    <file name="sl_board_control.h" generated="true" linked="false"/>
+    <file name="pin_config.h" generated="true" linked="false"/>
+    <file name="sl_si91x_stack_size_config.h" generated="true" linked="false"/>
+  </folder>
+  <includePath uri="studio:/project/config"/>
+</project>

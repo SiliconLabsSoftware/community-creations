@@ -1,0 +1,7 @@
+#ifndef SL_COMPONENT_CATALOG_H
+#define SL_COMPONENT_CATALOG_H
+
+// APIs present in project
+#define SL_CATALOG_SL_MAIN_PRESENT
+
+#endif // SL_COMPONENT_CATALOG_H

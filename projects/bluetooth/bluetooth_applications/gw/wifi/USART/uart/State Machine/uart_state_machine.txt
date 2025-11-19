@@ -1,0 +1,7 @@
+[*] --> IDLE
+IDLE --> SEND : uart_send_command()
+SEND --> RECEIVE : USE_RECEIVE == 1
+SEND --> IDLE : USE_RECEIVE == 0
+RECEIVE --> SEND : frame OK + USE_SEND
+RECEIVE --> IDLE : frame OK + !USE_SEND
+RECEIVE --> IDLE : lỗi
