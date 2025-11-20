@@ -97,6 +97,8 @@ osStatus_t uart_write_bytes(const uint8_t *data, uint32_t length, uint32_t timeo
       tx_busy = 1;
       sl_si91x_usart_send_data(usart_handle, &ch, 1);
     }
+  // Print the data being sent for debugging
+  DEBUGOUT("Data sent over UART: %s\r\n", data);
   }
 
   return osOK;
