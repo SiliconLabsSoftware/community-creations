@@ -1,14 +1,11 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
+
 #include "sl_status.h"
 #include "sl_si91x_usart.h"
 #include "rsi_debug.h"
 
-#include "packet_proto.h"
-#include "log_frame.h"
-#include "message_handler_router.h"
-#include "crc16.h"
 #include "uart_comm.h"
 #include "cmsis_os2.h"
 
@@ -20,20 +17,41 @@
 static sl_usart_handle_t usart_handle = NULL;
 static uint8_t rx_chunk;
 
-/* Queues + thread */
+// Queue
 static osMessageQueueId_t rx_mq = NULL; 
+static osMessageQueueId_t tx_mq = NULL;
+static volatile uint8_t tx_busy = 0;    //  Cờ để đánh dấu đang gửi
 
 /* ======================= USART callback ================== */
 void usart_callback_event(uint32_t event)
 {
   switch (event) {
     case SL_USART_EVENT_SEND_COMPLETE: {
+      uint8_t next_byte;
+      osStatus_t status = osMessageQueueGet(tx_mq, &next_byte, NULL, 0U);
+      if (status == osOK) {
+        // Continue sending next byte if available
+        sl_status_t st = sl_si91x_usart_send_data(usart_handle, &next_byte, 1);
+        if (st != SL_STATUS_OK) {
+          tx_busy = 0;
+          DEBUGOUT("USART send error: %lu\r\n", st);
+        } else {
+          tx_busy = 1; // Transmitting
+        }
+      } else {
+        tx_busy = 0;  // Idle
+      }
       break;
     }
 
     case SL_USART_EVENT_RECEIVE_COMPLETE: {
-      osMessageQueuePut(rx_mq, (void *)&rx_chunk, 0U, 0U);
+      osStatus_t status = osMessageQueuePut(rx_mq, (void *)&rx_chunk, 0U, 0U);
+      if (status != osOK) {
+        DEBUGOUT("USART RX queue put error: %d\r\n", status);
+      }else{
       sl_si91x_usart_receive_data(usart_handle, &rx_chunk, UART_RX_CHUNK);
+      }
+
       break;
     }
 
@@ -43,9 +61,45 @@ void usart_callback_event(uint32_t event)
 }
 
 /* ======================= Driver ==================== */
-osStatus_t uart_read_byte(uint8_t *b, uint32_t timeout_ms)
+osStatus_t uart_read_byte(uint8_t *data, uint32_t timeout_ms)
 {
-  return osMessageQueueGet(rx_mq, b, NULL, timeout_ms);
+  osStatus_t status;
+
+  status = osMessageQueueGet(rx_mq, data, NULL, timeout_ms);
+  if (status != osOK) {
+    DEBUGOUT("uart_read_byte: %d\n", status);
+    return status;
+  }
+
+  DEBUGOUT("uart_read_byte: %c\r\n", *data);
+  return osOK;
+}
+
+osStatus_t uart_write_bytes(const uint8_t *data, uint32_t length, uint32_t timeout_ms)
+{
+  osStatus_t status;
+
+  // Put bytes into TX queue
+  for (uint32_t i = 0; i < length; i++) {
+    uint8_t ch = data[i];
+    status = osMessageQueuePut(tx_mq, &ch, 0U, timeout_ms);
+    if (status != osOK) {
+      DEBUGOUT("uart_write_bytes: queue put error %d\r\n", status);
+      return status;
+    }
+  }
+
+  // Start transmission if not busy
+  if (!tx_busy) {
+    uint8_t ch;
+    status = osMessageQueueGet(tx_mq, &ch, NULL, 0U);
+    if (status == osOK) {
+      tx_busy = 1;
+      sl_si91x_usart_send_data(usart_handle, &ch, 1);
+    }
+  }
+
+  return osOK;
 }
 
 /* ======================= Init ============================ */
@@ -62,6 +116,14 @@ void uart_init(void)
     return;
   } else {
     DEBUGOUT("UART: RX message queue created\n");
+  }
+
+  tx_mq = osMessageQueueNew(UART_TX_MQ_LEN, sizeof(uint8_t), NULL);
+  if ((tx_mq == NULL)){
+    DEBUGOUT("UART: create TX message queue failed\n");
+    return;
+  } else {
+    DEBUGOUT("UART: TX message queue created\n");
   }
 
   memset(&usart_config, 0, sizeof(usart_config));
