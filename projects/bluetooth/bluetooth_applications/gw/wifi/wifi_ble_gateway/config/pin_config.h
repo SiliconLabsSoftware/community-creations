@@ -2,6 +2,28 @@
 #define PIN_CONFIG_H
 
 // $[USART0]
+// USART0 TX on GPIO_30
+#ifndef USART0_TX_PORT                          
+#define USART0_TX_PORT                           HP
+#endif
+#ifndef USART0_TX_PIN                           
+#define USART0_TX_PIN                            30
+#endif
+#ifndef USART0_TX_LOC                           
+#define USART0_TX_LOC                            5
+#endif
+
+// USART0 RX on GPIO_29
+#ifndef USART0_RX_PORT                          
+#define USART0_RX_PORT                           HP
+#endif
+#ifndef USART0_RX_PIN                           
+#define USART0_RX_PIN                            29
+#endif
+#ifndef USART0_RX_LOC                           
+#define USART0_RX_LOC                            10
+#endif
+
 // [USART0]$
 
 // $[UART1]

@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-08-28T02:40:03.000087800Z",
+    "timestamp" : "2025-11-19T03:53:01Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -35,15 +35,6 @@
       "version" : "3.5.1",
       "licenses" : [ {
         "expression" : "MSLA"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.1:ble",
-      "name" : "BLE",
-      "version" : "3.5.1",
-      "licenses" : [ {
-        "expression" : "Zlib"
       } ]
     }, {
       "scope" : "required",
@@ -742,6 +733,15 @@
       "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.1:rsilib_crc",
       "name" : "CRC",
+      "version" : "3.5.1",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.1:sl_usart",
+      "name" : "USART",
       "version" : "3.5.1",
       "licenses" : [ {
         "expression" : "Zlib"

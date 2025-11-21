@@ -2,16 +2,16 @@
 <project name="uc.module.setup.componentSetup.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
   <folder name="resources">
     <folder name="readme">
-      <file name="image279wsbpa.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/image279wsbpa.png"/>
-      <file name="image279wsbpancp.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/image279wsbpancp.png"/>
-      <file name="output1.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/output1.png"/>
-      <file name="output2.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/output2.png"/>
-      <file name="remote_screen1.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen1.png"/>
-      <file name="remote_screen2.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen2.png"/>
-      <file name="remote_screen3.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen3.png"/>
-      <file name="remote_screen4.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen4.png"/>
-      <file name="remote_screen5.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen5.png"/>
-      <file name="remote_screen6.png" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/resources/readme/remote_screen6.png"/>
+      <file name="image279wsbpa.png" linked="false" uri="studio:/project/resources/readme/image279wsbpa.png"/>
+      <file name="image279wsbpancp.png" linked="false" uri="studio:/project/resources/readme/image279wsbpancp.png"/>
+      <file name="output1.png" linked="false" uri="studio:/project/resources/readme/output1.png"/>
+      <file name="output2.png" linked="false" uri="studio:/project/resources/readme/output2.png"/>
+      <file name="remote_screen1.png" linked="false" uri="studio:/project/resources/readme/remote_screen1.png"/>
+      <file name="remote_screen2.png" linked="false" uri="studio:/project/resources/readme/remote_screen2.png"/>
+      <file name="remote_screen3.png" linked="false" uri="studio:/project/resources/readme/remote_screen3.png"/>
+      <file name="remote_screen4.png" linked="false" uri="studio:/project/resources/readme/remote_screen4.png"/>
+      <file name="remote_screen5.png" linked="false" uri="studio:/project/resources/readme/remote_screen5.png"/>
+      <file name="remote_screen6.png" linked="false" uri="studio:/project/resources/readme/remote_screen6.png"/>
     </folder>
   </folder>
   <folder name="wiseconnect3_sdk_3.5.1">
@@ -168,11 +168,13 @@
                     <file name="sl_si91x_adc.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_adc.c"/>
                     <file name="sl_si91x_bjt_temperature_sensor.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_bjt_temperature_sensor.c"/>
                     <file name="sl_si91x_dma.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_dma.c"/>
+                    <file name="sl_si91x_usart.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_usart.c"/>
                   </folder>
                   <folder name="inc">
                     <file name="sl_si91x_adc.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_adc.h"/>
                     <file name="sl_si91x_bjt_temperature_sensor.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_bjt_temperature_sensor.h"/>
                     <file name="sl_si91x_dma.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_dma.h"/>
+                    <file name="sl_si91x_usart.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_usart.h"/>
                   </folder>
                 </folder>
                 <folder name="service">
@@ -215,30 +217,6 @@
               </folder>
             </folder>
             <folder name="wireless">
-              <folder name="ble">
-                <folder name="src">
-                  <file name="rsi_ble_gap_apis.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gap_apis.c"/>
-                  <file name="rsi_ble_gatt_apis.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gatt_apis.c"/>
-                  <file name="rsi_bt_common_apis.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_common_apis.c"/>
-                  <file name="rsi_bt_ble.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_ble.c"/>
-                  <file name="rsi_common_apis.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_common_apis.c"/>
-                  <file name="rsi_utils.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_utils.c"/>
-                  <file name="sl_si91x_ble.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/sl_si91x_ble.c"/>
-                </folder>
-                <folder name="inc">
-                  <file name="rsi_ble_apis.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_apis.h"/>
-                  <file name="rsi_ble_common_config.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_common_config.h"/>
-                  <file name="rsi_ble.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble.h"/>
-                  <file name="rsi_bt_common_apis.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_apis.h"/>
-                  <file name="rsi_bt_common_config.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_config.h"/>
-                  <file name="rsi_bt_common.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common.h"/>
-                  <file name="rsi_common_apis.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common_apis.h"/>
-                  <file name="rsi_common.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common.h"/>
-                  <file name="rsi_user.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_user.h"/>
-                  <file name="rsi_utils.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_utils.h"/>
-                  <file name="sl_si91x_ble.h" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/sl_si91x_ble.h"/>
-                </folder>
-              </folder>
               <folder name="memory">
                 <file name="malloc_buffers.c" uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/memory/malloc_buffers.c"/>
               </folder>
@@ -599,13 +577,11 @@
       </folder>
     </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/app.c"/>
-  <file name="ble_app.c" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/ble_app.c"/>
-  <file name="wifi_app.c" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/wifi_app.c"/>
-  <file name="app.h" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/app.h"/>
-  <file name="ble_config.h" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/ble_config.h"/>
-  <file name="wifi_config.h" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/wifi_config.h"/>
-  <file name="readme.md" linked="false" uri="studio:/sdk/extension/wiseconnect-3.5.1/examples/snippets/wlan_ble/wifi_station_ble_provisioning/readme.md"/>
+  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
+  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
+  <file name="ble_config.h" linked="false" uri="studio:/project/ble_config.h"/>
+  <file name="wifi_config.h" linked="false" uri="studio:/project/wifi_config.h"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <file name="main.c" generated="true" linked="false"/>
   <excludedPath>resources/readme/image279wsbpa.png</excludedPath>
   <excludedPath>resources/readme/image279wsbpancp.png</excludedPath>
@@ -619,7 +595,6 @@
   <excludedPath>resources/readme/remote_screen6.png</excludedPath>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/sdk/extension/wiseconnect-3.5.1/components/protocol/wifi/inc"/>
-  <includePath uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc"/>
   <includePath uri="studio:/sdk/extension/wiseconnect-3.5.1/components/service/bsd_socket/inc"/>
   <includePath uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/cmsis_driver/CMSIS/Driver/Include"/>
   <includePath uri="studio:/sdk/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/cmsis_driver"/>
@@ -662,8 +637,6 @@
   <macroDefinition name="SLI_SI917B0" value="1"/>
   <macroDefinition name="SLI_SI91X_MCU_ENABLE_FLASH_BASED_EXECUTION" value="1"/>
   <macroDefinition name="SLI_SI91X_MCU_EXTERNAL_LDO_FOR_PSRAM" value="1"/>
-  <macroDefinition name="SLI_SI91X_ENABLE_BLE"/>
-  <macroDefinition name="SL_SI91X_ENABLE_LITTLE_ENDIAN"/>
   <macroDefinition name="SLI_SI91X_MCU_COMMON_FLASH_MODE" value="1"/>
   <macroDefinition name="SLI_SI91X_MCU_CONFIG_RADIO_BOARD_BASE_VER" value="1"/>
   <macroDefinition name="SLI_SI91X_MCU_CONFIG_RADIO_BOARD_VER2" value="1"/>
@@ -693,6 +666,8 @@
   <macroDefinition name="TA_DEEP_SLEEP_COMMON_FLASH"/>
   <macroDefinition name="SLI_SI91X_SOCKETS"/>
   <macroDefinition name="SLI_SI917"/>
+  <macroDefinition name="SL_SI91X_USART_DMA"/>
+  <macroDefinition name="USART_MODULE"/>
   <macroDefinition name="PLL_ROMDRIVER_PRESENT"/>
   <macroDefinition name="SL_WIFI_COMPONENT_INCLUDED"/>
   <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4002A&quot;"/>

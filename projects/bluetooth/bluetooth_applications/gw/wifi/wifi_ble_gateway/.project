@@ -1006,96 +1006,6 @@
 			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ahb_interface/src/sli_siwx917_soc.c</locationURI>
 		</link>
 		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_apis.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_apis.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_common_config.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_ble_common_config.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_apis.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_apis.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_config.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_bt_common_config.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common_apis.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_common_apis.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_user.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_user.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_utils.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/rsi_utils.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/inc/sl_si91x_ble.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/inc/sl_si91x_ble.h</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gap_apis.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gap_apis.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gatt_apis.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_ble_gatt_apis.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_ble.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_ble.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_common_apis.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_bt_common_apis.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_common_apis.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_common_apis.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_utils.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/rsi_utils.c</locationURI>
-		</link>
-		<link>
-			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/ble/src/sl_si91x_ble.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/ble/src/sl_si91x_ble.c</locationURI>
-		</link>
-		<link>
 			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/wireless/errno/inc/errno.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/wireless/errno/inc/errno.h</locationURI>
@@ -1721,6 +1631,11 @@
 			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_dma.h</locationURI>
 		</link>
 		<link>
+			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_usart.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/inc/sl_si91x_usart.h</locationURI>
+		</link>
+		<link>
 			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_adc.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_adc.c</locationURI>
@@ -1734,6 +1649,11 @@
 			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_dma.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_dma.c</locationURI>
+		</link>
+		<link>
+			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_usart.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/extension/wiseconnect-3.5.1/components/device/silabs/si91x/mcu/drivers/unified_api/src/sl_si91x_usart.c</locationURI>
 		</link>
 		<link>
 			<name>wiseconnect3_sdk_3.5.1/components/device/silabs/si91x/mcu/drivers/service/clock_manager/inc/sl_si91x_clock_manager.h</name>

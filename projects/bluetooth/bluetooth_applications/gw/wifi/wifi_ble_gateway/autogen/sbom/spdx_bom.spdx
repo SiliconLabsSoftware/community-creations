@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-08-28T02:40:03.000087800Z
+Created: 2025-11-19T03:53:01Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wiseconnect3_sdk-3.5.1
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2025.6.1
@@ -28,7 +28,6 @@ PackageSupplier: Organization: NOASSERTION
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-SIWG917M111MGTBA
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-basic_network_config_manager
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-ble
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-brd4342a
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-network_manager
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-si91x_memory_default_config
@@ -105,6 +104,7 @@ Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-cmsis_usart_driver
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-romdriver_ulpss
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-rsilib_crc
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.1 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.1-sl_usart
 
 ## Package Information
 PackageName: SIWG917M111MGTBA
@@ -127,17 +127,6 @@ PackageSupplier: Organization: NOASSERTION
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1-basic_network_config_manager CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.1
-
-## Package Information
-PackageName: BLE
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.1-ble
-PackageVersion: 3.5.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.1-ble CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.1
 
 ## Package Information
 PackageName: BRD4342A
@@ -988,6 +977,17 @@ PackageSupplier: Organization: NOASSERTION
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.1-rsilib_crc CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.1
+
+## Package Information
+PackageName: USART
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.1-sl_usart
+PackageVersion: 3.5.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.1-sl_usart CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.1
 
 ## Package Information
 PackageName: Simplicity SDK Suite

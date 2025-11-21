@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-08-28T02:40:03.000087800Z</timestamp>
+    <timestamp>2025-11-19T03:53:01Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -34,13 +34,6 @@ referenced in this SBOM.)
           <version>3.5.1</version>
           <licenses>
             <expression>MSLA</expression>
-          </licenses>
-        </component>
-        <component bom-ref="wiseconnect3_sdk:3.5.1:ble" type="library">
-          <name>BLE</name>
-          <version>3.5.1</version>
-          <licenses>
-            <expression>Zlib</expression>
           </licenses>
         </component>
         <component bom-ref="wiseconnect3_sdk:3.5.1:brd4342a" type="library">
@@ -587,6 +580,13 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="wiseconnect3_sdk:3.5.1:rsilib_crc" type="library">
           <name>CRC</name>
+          <version>3.5.1</version>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="wiseconnect3_sdk:3.5.1:sl_usart" type="library">
+          <name>USART</name>
           <version>3.5.1</version>
           <licenses>
             <expression>Zlib</expression>
