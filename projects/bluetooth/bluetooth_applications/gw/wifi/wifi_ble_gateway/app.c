@@ -9,7 +9,8 @@
 
 static uart_fsm_decoder_t test_decoder_init;
 
-//void mock_test_uart(void);
+
+#if UART_DECODER_MOCK_TEST
 void mock_test_decoder(void)
 {
   // packet "Hello, this is decoder" giống script Python
@@ -19,7 +20,7 @@ void mock_test_decoder(void)
       0x74, 0x68, 0x69, 0x73, 0x20, 0x69, 0x73,
       0x20, 0x64, 0x65, 0x63, 0x6F, 0x64, 0x65, 0x72,
       0xFF,
-      0xD2, 0x9A,
+      0x72, 0x5E,
       0x0F
   };
 
@@ -27,28 +28,7 @@ void mock_test_decoder(void)
       uart_decode_fsm(&test_decoder_init, test_packet[i]);
   }
 }
-
-void app_init(void)
-{
-  // uart_init();
-  uart_fsm_decoder_init(&test_decoder_init);
-}
-
-/***************************************************************************/ /**
- * App ticking function.
- ******************************************************************************/
-void app_process_action(void)
-{
-  static bool ran = false;
-
-  if (!ran) {
-    mock_test_decoder();
-    ran = true;
-  }
-#if MOCK_TEST_UART
-  mock_test_uart();
-#endif /*MOCK_TEST_UART*/
-}
+#endif /*MOCK_DECODER_MOCK_TEST*/
 
 #if MOCK_TEST_UART
 void mock_test_uart(void)
@@ -68,5 +48,31 @@ void mock_test_uart(void)
   }
 }
 #endif /*MOCK_TEST_UART*/
+
+void app_init(void)
+{
+//  uart_init();
+  uart_fsm_decoder_init(&test_decoder_init);
+}
+
+/***************************************************************************/ /**
+ * App ticking function.
+ ******************************************************************************/
+void app_process_action(void)
+{
+#if UART_DECODER_MOCK_TEST
+static bool ran = false;
+if (!ran) {
+  mock_test_decoder();
+  ran = true;
+}
+#endif /*UART_DECODER_MOCK_TEST*/
+
+#if MOCK_TEST_UART
+  mock_test_uart();
+#endif /*MOCK_TEST_UART*/
+}
+
+
 
 

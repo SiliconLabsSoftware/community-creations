@@ -1,7 +1,5 @@
-#ifndef INC_DECODE_H_
-#define INC_DECODE_H_
-
-#include "stdbool.h"
+#ifndef SRC_INC_DECODE_H_
+#define SRC_INC_DECODE_H_
 
 // Payload types
 typedef enum {
@@ -12,11 +10,13 @@ typedef enum {
     TLV_UUID_VALUE  = 0x04,
     TLV_OTA_VALUE   = 0x05,
     TLV_WIFI_CONFIG = 0x06,
+    TLV_HELLO       = 0x48,
 } tlv_type_t;
 
 
 // Packet types
 typedef enum {
+    PKT_TYPE_HELLO         = 0x0001,
     PKT_TYPE_TEST          = 0x0101,
     PKT_TYPE_OTA_REQUEST   = 0x0202,
     PKT_TYPE_OTA_RESPONSE  = 0x0203,
@@ -66,8 +66,8 @@ typedef enum {
 typedef struct {
     uart_decode_state_t state;
     uart_packet_t packet;
-    uint8_t payload_buffer[UART_MAX_PAYLOAD_LEN];
-    uint16_t payload_index;
+    uint8_t uart_payload_temp_buffer[UART_MAX_PAYLOAD_LEN];
+    uint16_t uart_payload_temp_buffer_index;
 
     // CRC
     uint16_t calculated_crc;
@@ -81,8 +81,7 @@ typedef struct {
     uint32_t bad_length_count;
 } uart_fsm_decoder_t;
 
-
-
+// Decode error codes
 typedef enum {
     UART_DECODE_PASSED             = 0,
     UART_DECODE_ERR_INVALID_TYPE   = 1,
@@ -115,4 +114,5 @@ void uart_fsm_print_packet(const uart_packet_t *packet);
 
 // States machine for UART decoding
 void uart_decode_fsm (uart_fsm_decoder_t *decoder, uint8_t byte);
-#endif /* INC_DECODE_H_ */
+
+#endif /* SRC_INC_DECODE_H_ */
