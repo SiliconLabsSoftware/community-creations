@@ -1,4 +1,4 @@
-# IoT CoE PROJECT DESCRIPTION TEMPLATE
+# Centre of Innovation in IoT PROJECT DESCRIPTION TEMPLATE
 
 ## 1. Project Overview
 Provide a concise description of what the project does, who it is for, and why it exists.
