@@ -97,6 +97,7 @@ Share it on social and tag @SiliconLabs, @SeeedStudio, and @MouserElec
 
 ## Submitted projects
 - [https://github.com/MedhaIndra/Pet-Tracker] - [Pet Location Tracker]
+- [https://github.com/rjrishabh/Snore-detection-MG24] - [SnoreSense]
 
 
 ## 🧠 How Judging Works
