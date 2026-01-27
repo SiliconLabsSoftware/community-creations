@@ -194,7 +194,7 @@ void si70xx_example_init(void)
       DEBUGOUT("Sensor initialization un-successful, Error Code: 0x%ld \n", status);
       break;
     } else {
-      DEBUGOUT("Successfully reset sensor\n");
+      DEBUGOUT("Successfully read electronic ID second byte\n");
     }
     // Get sensor internal firmware version of sensor
     status = sl_si91x_si70xx_get_firmware_revision(I2C, SI70XX_SLAVE_ADDR, &firm_rev);
