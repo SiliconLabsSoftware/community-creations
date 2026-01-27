@@ -72,7 +72,7 @@ SECTIONS
 		*(.dtors)
 		*(.rodata*)
 		
-		KEEP(*(.eh_fram e*))			
+		KEEP(*(.eh_frame*))			
 	} > rom	
 	
 	.ARM.extab : 
