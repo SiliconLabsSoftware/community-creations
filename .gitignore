@@ -2,11 +2,7 @@
 *.launch
 *.orig
 *.bak
-.DS_Store
-*.swp
-*.swo
-*.swx
-*~
+
 .vscode/
 **/build/
 **/GNU ARM v*

@@ -29,11 +29,12 @@ Examples:
 - `projects/zigbee/zigbee_applications/README.md`
 - `projects/wifi/wifi_applications/README.md`
 
+To reduce merge conflicts when multiple PRs are opened around the same time, please append your new row to the bottom of the table and do not reorder or edit existing rows.
+
 ## Requirements
 
 - The linked GitHub repository must be **public** and accessible.
-- The linked repository must include a **license file**. We recommend Apache 2.0.
-- Projects with **GPLv2, GPLv3, or similar copyleft** licenses are not accepted for listing.
+- The linked repository must include a **license file** at the repository root.
 - The project must be related to Silicon Labs hardware, software, or technologies.
 
 Maintainers may request changes to improve clarity or may remove/delist entries (for example, if links break).
@@ -52,7 +53,7 @@ To help others reproduce and learn from your project, include a `README.md` with
 
 1. Fork this repository.
 2. Create a branch in your fork.
-3. Edit the relevant `projects/**/**_applications/README.md` listing table and add your row.
+3. Edit the relevant `projects/**/**_applications/README.md` listing table and append your row at the bottom.
 4. Commit your change.
 5. Open a pull request and fill out the pull request template (include the GitHub URL and the category file you edited).
 

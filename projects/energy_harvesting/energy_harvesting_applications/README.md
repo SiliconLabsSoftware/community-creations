@@ -20,6 +20,7 @@ This repository accepts link submissions (not project source code). To share you
 - a link to your public GitHub repository
 - a 1-2 sentence description
 - a link to your GitHub profile
+- append your new row to the bottom of the table (do not reorder or edit existing rows)
 
 See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
 
@@ -27,9 +28,16 @@ See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.
 
 Below is a list of Energy Harvesting application projects that have been contributed by the community.
 
+To avoid merge conflicts when multiple PRs are created around the same time, please append your new row at the bottom of the table.
+
+Example row (copy/paste and edit):
+
+```markdown
+| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
+```
+
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-| [Your project name](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [Your GitHub name](https://github.com/<your-handle>) |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 

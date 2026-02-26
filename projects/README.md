@@ -33,6 +33,7 @@ To add a project listing, edit the appropriate category listing table (a `*_appl
 - Project GitHub repository link
 - 1-2 sentence description
 - Author GitHub profile link
+- Append your new row to the bottom of the table (do not reorder or edit existing rows)
 
 See the main contribution guide:
 [CONTRIBUTING.md](../.github/CONTRIBUTING.md)

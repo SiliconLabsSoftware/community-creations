@@ -31,10 +31,11 @@ You can share any completed, working project that involves Silicon Labs products
 This repository accepts **link submissions** (not project source code). To share your project:
 
 1. **Choose a category** under `projects/` that best fits your project (Bluetooth, Zigbee, Wi-Fi, Matter, etc.).
-2. **Edit the category listing table** (a `projects/**/**_applications/README.md` file) and add a new row with:
+2. **Edit the category listing table** (a `projects/**/**_applications/README.md` file) and append a new row at the bottom with:
    - Your project GitHub repository link
    - A 1-2 sentence description
    - Your GitHub profile link
+   - (please do not reorder or edit existing rows; it helps avoid merge conflicts)
 3. **Submit a pull request** with a brief explanation of your project and the GitHub URL.
 
 For detailed contribution guidelines, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
@@ -61,8 +62,7 @@ While community contributions are welcomed and appreciated, Silicon Labs offers 
 
 ## License
 
-Projects submitted for listing should include a license file in the linked GitHub repository. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
-Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.
+Projects submitted for listing must include a license file in the linked GitHub repository.
 
 This repository is licensed under the terms specified in the [LICENSE.md](./LICENSE.md) file. Please review it for details regarding usage rights and limitations.
 
