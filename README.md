@@ -28,15 +28,16 @@ You can share any completed, working project that involves Silicon Labs products
 
 ## How to Contribute
 
-1. **Fork this repository** and create a new folder in the `projects/` directory under the used technology.
-2. **Name the folder** after your project: `projects/bluetooth/my-awesome-project`
-3. Include the following in your project folder:
-    - `README.md` – A description of your project, how it works, and how to reproduce it.
-    - Code, diagrams, assets, or other relevant files.
-    - (Optional) Images, links to videos, or GIFs to show your project in action. (Avoid uploading large files)
-4. **Submit a pull request** with a brief explanation of your project.
+This repository accepts **link submissions** (not project source code). To share your project:
 
-For detailed contribution guidelines, see [CONTRIBUTING.md](https://github.com/SiliconLabsSoftware/community-creations/blob/main/.github/CONTRIBUTING.md).
+1. **Choose a category** under `projects/` that best fits your project (Bluetooth, Zigbee, Wi-Fi, Matter, etc.).
+2. **Edit the category listing table** (a `projects/**/**_applications/README.md` file) and add a new row with:
+   - Your project GitHub repository link
+   - A 1-2 sentence description
+   - Your GitHub profile link
+3. **Submit a pull request** with a brief explanation of your project and the GitHub URL.
+
+For detailed contribution guidelines, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## Highlighted Projects
 
@@ -50,17 +51,17 @@ We regularly highlight standout community creations! If your project gets featur
 
 ## Disclaimer
 
-This repository contains *Community Creations*—code, examples, and other contributions developed and maintained by the community. Unless explicitly stated otherwise, all content is considered to be of **EXPERIMENTAL QUALITY**. The code has not undergone formal validation and is provided **as-is**, without any warranty of functionality, completeness, or reliability.
+This repository contains *Community Creations* listings, links, and related documentation contributed by the community. Unless explicitly stated otherwise, all content is considered to be of **EXPERIMENTAL QUALITY** and is provided **as-is**, without any warranty of functionality, completeness, or reliability.
 
-Silicon Labs reviews submitted pull requests solely for **compliance with coding standards and the contribution guide**, but **does not perform additional testing**. Consequently, Silicon Labs makes no guarantees regarding the correctness, quality, or suitability of any content for a specific application.
+Silicon Labs reviews submitted pull requests solely for **compliance with the contribution guide**, but **does not perform additional testing**. Consequently, Silicon Labs makes no guarantees regarding the correctness, quality, or suitability of any listed project for a specific application.
 
-Use of this code is entirely at your own risk. It is **not recommended** for deployment in production environments.
+Use of these projects is entirely at your own risk. They are **not recommended** for deployment in production environments.
 
 While community contributions are welcomed and appreciated, Silicon Labs offers **no commitment** to maintain, support, or update any part of this repository. Silicon Labs may, at its sole discretion, modify or remove community projects without notice.
 
 ## License
 
-All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
+Projects submitted for listing should include a license file in the linked GitHub repository. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.
 Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.
 
 This repository is licensed under the terms specified in the [LICENSE.md](./LICENSE.md) file. Please review it for details regarding usage rights and limitations.

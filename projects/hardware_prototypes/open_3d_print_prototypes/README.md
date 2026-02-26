@@ -12,16 +12,25 @@ By sharing 3D-printable designs alongside software, we aim to support a complete
 > [!Tip]
 > Try to include .3mf files (3D Manufacturing Format), which is a modern file format designed specifically for 3D printing. It contains not only the model geometry but also additional information such as color, material, and print settings. These files have been edited using Bambu Studio and successfully test-printed with the Bambu A1 3D printer. It also contains design files created and finalized in Fusion 360, which provide full design history and parametric features. Users can open and directly modify these files within Fusion 360 to suit their specific needs.
 
+## How to contribute ##
+
+This repository accepts link submissions (not design files). To share your project, add a new row to the table below with:
+
+- a link to your public GitHub repository
+- a 1-2 sentence description
+- a link to your GitHub profile
+
+See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
+
 ## Project list ##
 
 Below is a list of Open Hardware Prototypes that have been contributed by the community.
 
-| No | Project name | Author/Contributor |
-|:--:|:-------------|:---------------:|
-| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+| Project (GitHub) | Description | Author/Contributor |
+|:--|:--|:--|
+| [Your project name](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it is and how it relates to Silicon Labs hardware/tech. | [Your GitHub name](https://github.com/<your-handle>) |
 
 ## Reporting Design Issues and Posting Questions and Comments ##
 
-To report issues with the designs, please create a new "Issue" in the "Issues" section of this repo. Please reference the schematic, board files, and reference designs associated with the flaws, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
-
-Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
+- For issues with a listed project, use the linked repository's issue tracker.
+- For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.

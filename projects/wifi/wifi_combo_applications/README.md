@@ -2,7 +2,7 @@
 
 Silicon Labs Wi-Fi Combo Applications leverage the SiWx91x family of SoCs and modules to demonstrate combined Wi-Fi use cases, such as simultaneous station and access point operation, Wi-Fi/Bluetooth coexistence, and integration with cloud services. This repository features community-created examples that highlight multi-protocol connectivity, secure communication, OTA updates, and advanced power management for IoT, smart home, and industrial applications.
 
-Community members are invited to contribute their own combo application projects, suggest improvements, and collaborate by submitting pull requests or opening issues. For detailed setup steps, hardware compatibility, and SDK requirements, please refer to the README file included with each project.
+Community members are invited to share their own combo application projects by adding a listing entry below. For detailed setup steps, hardware compatibility, and SDK requirements, please refer to the README file included with each linked repository.
 
 ## Requirements ##
 
@@ -12,21 +12,23 @@ Community members are invited to contribute their own combo application projects
 4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
 5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
-## Project Format ##
+## How to contribute ##
 
-You are welcome to contribute these projects in any format you find suitable.
-However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
-While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+This repository accepts link submissions (not project source code). To share your project, add a new row to the table below with:
 
-For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+- a link to your public GitHub repository
+- a 1-2 sentence description
+- a link to your GitHub profile
+
+See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
 
 ## Project list ##
 
 Below is a list of Wifi Combo application projects that have been contributed by the community.
 
-| No | Project name | Author/Contributor |
-|:--:|:-------------|:---------------:|
-| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+| Project (GitHub) | Description | Author/Contributor |
+|:--|:--|:--|
+| [Your project name](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [Your GitHub name](https://github.com/<your-handle>) |
 
 ## Documentation ##
 
@@ -34,6 +36,5 @@ The official Wi-Fi documentation is available on the [Developer Documentation](h
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
-
-Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
+- For issues with a listed project, use the linked repository's issue tracker.
+- For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.

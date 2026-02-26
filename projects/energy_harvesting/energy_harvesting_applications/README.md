@@ -1,9 +1,9 @@
 # Silicon Labs Energy Harvesting Applications - Simplicity SDK Extension #
 
 
-Silicon Labs provides a range of [Energy Harvesting Examples](https://github.com/SiliconLabsSoftware/energy_harvesting_applications) to help you explore practical implementations and accelerate your development process. These examples demonstrate key concepts and use cases, but they only scratch the surface of what’s possible. We encourage you to contribute your own projects and ideas—your insights can help expand the ecosystem, foster collaboration, and support others working on similar energy-efficient solutions.
+Silicon Labs provides a range of [Energy Harvesting Examples](https://github.com/SiliconLabsSoftware/energy_harvesting_applications) to help you explore practical implementations and accelerate your development process. These examples demonstrate key concepts and use cases, but they only scratch the surface of what’s possible. We encourage you to share your own projects and ideas to help expand the ecosystem.
 
-This repository provides comprehensive documentation, demonstration projects, example applications, and all necessary source code for the Energy Harvesting extension for Silicon Labs devices. It is designed to be integrated with Silicon Labs Simplicity Studio, enabling developers to explore, evaluate, and build energy harvesting solutions using supported hardware and software tools. While you can browse the repository, it is recommended to access and use its content through Simplicity Studio for the best experience, as direct usage outside the IDE may not be fully supported.
+This page is a directory listing. Project code and documentation live in the linked repositories.
 
 ## Requirements ##
 
@@ -13,16 +13,25 @@ This repository provides comprehensive documentation, demonstration projects, ex
 4. Compatible Third-Party Hardware Drivers extension as specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 5. Power profiling tool: [Qoitech Otii Ace Pro](https://www.qoitech.com/otii-ace/)
 
+## How to contribute ##
+
+This repository accepts link submissions (not project source code). To share your project, add a new row to the table below with:
+
+- a link to your public GitHub repository
+- a 1-2 sentence description
+- a link to your GitHub profile
+
+See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
+
 ## Project List ##
 
 Below is a list of Energy Harvesting application projects that have been contributed by the community.
 
-| No | Project name | Author/Contributor |
-|:--:|:-------------|:---------------:|
-| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+| Project (GitHub) | Description | Author/Contributor |
+|:--|:--|:--|
+| [Your project name](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [Your GitHub name](https://github.com/<your-handle>) |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
-
-Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
+- For issues with a listed project, use the linked repository's issue tracker.
+- For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.

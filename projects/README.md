@@ -1,16 +1,12 @@
-# Silicon Labs Applications Examples Community #
+# Silicon Labs Community Creations Directory
 
-## Introduction ##
+This `projects/` directory organizes community project listings by technology and domain (Bluetooth, Zigbee, Wi-Fi, Matter, etc.). Projects themselves live in their own GitHub repositories and are referenced here as links.
 
-In the original official [Application Examples](https://github.com/SiliconLabs/application_examples) repository, we have featured a wide variety of projects, providing insights into how Silicon Labs devices and technologies work in many different real-life scenarios. Our repository covers a broad spectrum of use cases, including Bluetooth, Zigbee, Thread, Wi-Fi, etc., and integration with various sensors and peripherals. Each project highlights different aspects of the Silicon Labs software stack, illustrating how to configure, develop, and troubleshoot wireless and embedded applications on Silicon Labs hardware platforms. These resources are valuable for new developers seeking to understand and eventually develop practical IoT solutions across multiple connectivity standards.
+## Structure
 
-We encourage developers and enthusiasts to contribute their own application examples to this repository. By sharing your projects, you help expand the range of use cases and provide valuable learning resources for others in the community. Whether you have a unique application, an improvement to an existing example, or helpful documentation, your contributions are welcome. Please follow the contribution guidelines in the repository to submit your project or enhancement. Together, we can build a richer set of resources and accelerate innovation with Silicon Labs solutions.
+Use this table to find the best category for your project before adding a listing:
 
-## Structure ##
-
-Below is a list of the main sub-repositories within the Silicon Labs Community Creations organization. Each repository is focused on a specific technology or application domain. Use this table to determine where your project best fits before contributing:
-
-| Repo Name                | Repo Link                                                                 | Technology             | Description                                                                                   |
+| Category                 | Path Link                                                                 | Technology             | Description                                                                                   |
 |--------------------------|--------------------------------------------------------------------------|------------------------|-----------------------------------------------------------------------------------------------|
 | bluetooth-examples       | [bluetooth-examples](./bluetooth/)       | Bluetooth              | Application examples and demos using Silicon Labs Bluetooth SoCs and modules.                  |
 | zigbee-examples          | [zigbee-examples](./zigbee/)            | Zigbee                 | Projects and sample code for Zigbee mesh networking and device integration.                    |
@@ -28,55 +24,20 @@ Below is a list of the main sub-repositories within the Silicon Labs Community C
 | platform-examples         | [platform-examples](./platform/)              | Platform                | Example projects demonstrating board bring-up, hardware abstraction, and platform-specific features.         |
 | hardware-prototypes       | [hardware-prototypes](./hardware_prototypes/)              | Hardware Design                | Notable example designs for demo purpose to provide a complete solution.         |
 
-If your project does not fit into any of the above categories, or if you are unsure where to contribute, please open an issue in the [community-creations](https://github.com/SiliconLabsSoftware/community-creations) repository for guidance.
+If your project does not fit into any of the above categories, or if you are unsure where to list it, open an issue in this repository for guidance.
 
-## Contribution Guidelines ##
+## Add Your Project
 
-This repository leverages a CI/CD system to ensure high-quality contributions and maintain consistency across all application examples. The CI/CD pipeline automatically validates pull requests (PRs) and enforces best practices for project structure, documentation, and code quality.
+To add a project listing, edit the appropriate category listing table (a `*_applications/README.md` file) and add a new row with:
 
-To facilitate smooth integration and review, contributors are expected to follow these best practices:
+- Project GitHub repository link
+- 1-2 sentence description
+- Author GitHub profile link
 
-- **Project Format**:
-  Organize your project according to the repository’s standard format. Each project should reside in its own directory under the appropriate category, and include a clear `README.md`, source code, and any required assets.
-
-- **Folder Structure**:
-  You are welcome to contribute these projects in any format you find suitable. However, we still strongly prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
-
-- **Documentation**:
-  Provide comprehensive documentation for your project, including setup instructions, usage, and any dependencies. Well-documented projects are easier to review and maintain.
-
-- **Code of Conduct**:
-  All contributors must adhere to the [Code of Conduct](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/code_of_conduct.md).
-
-- **Coding Standard**:
-  Ensure your code complies with the [Coding Standard](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/coding_standard.md) for readability and maintainability.
-
-All submitted PRs are automatically checked by the CI/CD system. The following criteria must be met for a PR to pass:
-
-- **Project Structure**:
-  The project must follow the prescribed format and folder structure.
-
-- **Documentation**:
-  Each project must include a `README.md` with clear instructions and descriptions.
-
-- **Code Quality**:
-  Code must adhere to the repository’s coding standards and pass any automated linting or formatting checks.
-
-- **Build Verification**:
-  Where applicable, the CI/CD system will attempt to build the project to ensure there are no compilation errors.
-
-After submitting a PR, the results of the CI/CD checks are displayed directly in the PR interface on GitHub. Each check will show a pass or fail status, with links to detailed logs and reports for further information.
-
-If your PR fails any CI/CD checks:
-
-- Review the detailed report linked in the PR status section to identify the issue.
-- Address the reported problems and push updates to your branch; the CI/CD system will re-run automatically.
-- If you encounter issues you cannot resolve, or if you believe a check is failing in error, please contact the repository maintainers by commenting on your PR or opening an issue.
-
-By following these guidelines and leveraging the CI/CD system, we can collaboratively maintain a high standard of quality and reliability for all application examples in this repository.
+See the main contribution guide:
+[CONTRIBUTING.md](../.github/CONTRIBUTING.md)
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the Community Creations projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
-
-Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
+- For issues with a listed project, use the linked repository's issue tracker.
+- For issues with this directory (broken links, wrong category, documentation problems), open an issue in this repository.
