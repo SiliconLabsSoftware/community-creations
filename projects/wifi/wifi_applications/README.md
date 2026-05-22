@@ -37,7 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-
+| [Engine Monitoring System](https://github.com/Karthikeyang61/Engine-Monitoring-System) | An IoT-based smart engine health monitoring system using the SiWx917 board to monitor temperature, vibration, noise, and exhaust gas levels in real time. The system detects abnormal engine conditions, provides alerts, and displays engine health data on a web dashboard and onboard display for preventive maintenance. | [Karthikeyang61](https://github.com/Karthikeyang61) |
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
