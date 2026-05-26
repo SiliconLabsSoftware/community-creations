@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Smart Pothole Detection & GPS System](https://github.com/Developer-Vinayak/pothole-detection-gps-iot) | IoT-based smart pothole detection using ESP32-CAM and GPS that auto-tags road damage locations and reports them on a live web dashboard using Wi-Fi connectivity. | [Developer-Vinayak](https://github.com/Developer-Vinayak/pothole-detection-gps-iot) |
 
 ## Documentation ##
 
