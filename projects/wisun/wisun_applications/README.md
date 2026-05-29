@@ -37,7 +37,8 @@ Example row (copy/paste and edit):
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
-|Cognitive RF Environment Intelligence Platform (CREIP)|It is a Self-Learning Predictive Mesh Intelligence for Next-Generation Resilient IoT Infrastructure.|https://github.com/shubhi-garg27|
+| [my-project](https://github.com/shubhi-garg27/creip-wisun-mesh) | CREIP is an AI-powered wireless mesh networking system built using Silicon Labs devices to improve communication reliability in dynamic RF environments.
+ | [my-handle](https://github.com/shubhi-garg27) |
 
 ## Documentation ##
 
