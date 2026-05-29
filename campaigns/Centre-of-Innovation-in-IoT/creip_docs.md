@@ -1,233 +1,187 @@
-### **Cognitive RF Environment Intelligence Platform (CREIP)**
+# Cognitive RF Environment Intelligence Platform (CREIP)
 
+### *Self-Learning Predictive Mesh Intelligence for Next-Generation IoT Infrastructure*
 
+---
 
-#### **1. Project Overview**
+# Project Overview
 
+CREIP is an AI-powered wireless mesh networking platform built using Silicon Labs EFR32 devices to create smarter, more reliable, and self-adaptive IoT communication systems.
 
+Traditional mesh networks often struggle in dynamic RF environments due to:
 
-###### It is a Self-Learning Predictive Mesh Intelligence for Next-Generation Resilient IoT Infrastructure.
+* interference,
+* congestion,
+* signal blockage,
+* and unstable communication links.
 
+CREIP introduces an edge-AI driven routing layer that continuously analyzes network conditions and predicts weak communication paths before failures occur.
 
+The platform can:
 
-##### **Project Description**
+* intelligently reroute traffic,
+* optimize mesh communication,
+* reduce packet loss and latency,
+* and self-heal the network in real time.
 
+CREIP also creates a Digital RF Twin to visualize network behaviour, RF conditions, and node health across the infrastructure.
 
+Unlike conventional routing systems, CREIP combines:
 
-###### **CREIP is an AI-powered wireless mesh networking system built using Silicon Labs devices to improve communication reliability in dynamic RF environments.**
+* predictive AI,
+* RF-awareness,
+* and autonomous optimization
 
-###### 
+to build a resilient and intelligent wireless ecosystem for future IoT deployments.
 
-###### **Traditional mesh networks often struggle with changing conditions such as interference, congestion, signal blockage, and weak nodes. CREIP solves this by adding an edge-AI layer that continuously monitors network conditions and predicts unstable links before failures occur.**
+---
 
-###### 
+# Core Objectives
 
-###### **The system can:**
+* Improve mesh reliability in difficult RF conditions
+* Reduce communication latency and packet loss
+* Enable predictive self-healing routing
+* Minimize network downtime
+* Enhance Silicon Labs IoT deployments with intelligent mesh optimization
 
-* ###### **detect weak communication paths**
-* ###### **reroute traffic automatically**
-* ###### **optimize network performance**
-* ###### **and self-heal the mesh network in real time**
+---
 
-###### 
+# Target Users
 
-###### **It also creates a Digital RF Twin to visualize network health and RF behavior across the environment. Unlike conventional routing systems, CREIP combines predictive AI, RF-awareness, and autonomous optimization to build a smarter and more reliable wireless infrastructure.**
+* Industrial IoT operators
+* Smart infrastructure providers
+* Healthcare facilities
+* Wireless system developers
+* Silicon Labs ecosystem users
 
-###### 
+---
 
-##### **Core Objectives**
+# Technical Architecture
 
+### System Architecture Diagram
 
+Attached in the `images/` folder.
 
-1. ###### **Improve mesh reliability in difficult RF conditions**
-2. ###### **Reduce latency and packet loss**
-3. ###### **Enable predictive self-healing communication**
-4. ###### **Minimize network downtime**
-5. ###### **Enhance Silicon Labs IoT deployments with intelligent routing**
+### Data Flow Architecture
 
+Attached in the `images/` folder.
 
+### Self-Healing Workflow
 
-##### **Target Users**
+Attached in the `images/` folder.
 
+---
 
+# Technologies Used
 
-* ###### **Industrial IoT operators**
-* ###### **Smart infrastructure providers**
-* ###### **Healthcare facilities**
-* ###### **Wireless system developers**
-* ###### **Silicon Labs ecosystem users2.**
+## Wireless Technologies
 
-###### 
+* Wi-SUN Mesh Networking
+* Sub-GHz RF Communication
 
-#### **2. Technical Architecture**
+---
 
+## SDKs / Frameworks
 
+* Gecko SDK (GSDK)
+* Wi-SUN SDK
+* TensorFlow Lite Micro (TinyML)
 
-##### (i)  System Architecture Diagram- attached in the images folder
+---
 
-##### (ii) Data Flow Architecture- attached in the images folder
+## Programming Languages
 
-##### (iii)Self-Healing Workflow- attached in the images folder
+| Language   | Purpose                       |
+| ---------- | ----------------------------- |
+| C          | Embedded firmware             |
+| C++        | AI-based routing logic        |
+| Python     | AI model training & analytics |
+| JavaScript | Dashboard visualization       |
+| HTML/CSS   | Monitoring interface          |
 
+---
 
+## Development Tools
 
+| Tool                | Purpose                          |
+| ------------------- | -------------------------------- |
+| Simplicity Studio 6 | Firmware development & debugging |
+| Network Analyzer    | RF packet analysis               |
+| Energy Profiler     | Power optimization               |
+| VS Code             | Dashboard/backend development    |
+| GitHub              | Version control                  |
 
+---
 
-#### **3. Technologies Used**
+# Hardware Components
 
+## Silicon Labs Hardware
 
+| Component            | Purpose                  |
+| -------------------- | ------------------------ |
+| EFR32MG24 SoC        | Mesh communication nodes |
+| EFR32MG26 SoC        | AI routing controller    |
+| Wireless Pro Kit     | Development & debugging  |
+| BRD4198A Radio Board | Wi-SUN testing           |
 
-##### **(i) Wireless Technologies**
+---
 
+## External Hardware
 
+| Component                 | Purpose                      |
+| ------------------------- | ---------------------------- |
+| Raspberry Pi              | Dashboard hosting            |
+| Environmental Sensors     | Network condition monitoring |
+| OLED Display *(Optional)* | Local status display         |
+| Lithium Battery Pack      | Portable node power          |
 
-* ###### Wi-SUN Mesh Networking
-* ###### Sub-GHz RF Communication
+---
 
+## Testing Tools
 
+| Tool           | Purpose                 |
+| -------------- | ----------------------- |
+| Logic Analyzer | Communication debugging |
+| Oscilloscope   | Signal testing          |
 
-##### **(ii) SDKs / Frameworks**
+---
 
+# Software Components / Dependencies
 
-
-* ###### Gecko SDK (GSDK)
-* ###### Wi-SUN SDK
-* ###### TensorFlow Lite Micro (TinyML)
-
-
-
-##### **(iii) Programming Languages**
-
-
-
-|**Language**|**Purpose**|
-|-|-|
-|C|Embedded firmware|
-|C++|AI/routing logic|
-|Python|AI model training and analytics|
-|JavaScript|Dashboard visualization|
-|HTML/CSS|Monitoring UI|
-
-
-
-
-
-##### **(iv) Development Tools**
-
-
-
-|**Tool**|**Purpose**|
-|-|-|
-|Simplicity Studio 6|Main development environment|
-|Network Analyzer|RF packet analysis|
-|Energy Profiler|Power optimization|
-|VS Code|Dashboard/backend development|
-|GitHub|Version control|
-
-
-
-
-
-#### **4. Hardware Components**
-
-
-
-##### **(i) Silicon Labs Hardware**
-
-
-
-|Component|Purpose|
-|-|-|
-|EFR32MG24 SoC|Mesh sensor nodes|
-|EFR32MG26 SoC|AI routing controller|
-|Wireless Pro Kit|Development and debugging|
-|BRD4198A Radio Board|Wi-SUN communication testing|
-
-
-
-
-
-##### **(ii) External Hardware**
-
-
-
-|Component|Purpose|
-|-|-|
-|<br />Raspberry Pi|Dashboard hosting|
-|Environmental Sensors|Network condition monitoring|
-|OLED Display (Optional)|Local status display|
-|Lithium Battery Pack|Portable node power|
-
-
-
-##### **(iii) Testing Tools**
-
-
-
-|Tool|Purpose|
-|-|-|
-|Logic Analyzer|Communication debugging|
-|Oscilloscope|Signal testing|
-
-
-
-#### **5. Software Components / Dependencies**
-
-
-
-##### **(i) Silicon Labs Dependencies-**
-
-
+## Silicon Labs Dependencies
 
 1. Gecko SDK Suite (GSDK) v4.x
 2. Simplicity Studio v6
-3. Wi-SUN SDK Latest
+3. Wi-SUN SDK (Latest Stable Release)
 
+---
 
+## External Software Dependencies
 
-##### **(ii) External Software Dependencies-**
+| Software              | Purpose               |
+| --------------------- | --------------------- |
+| TensorFlow Lite Micro | Edge AI inference     |
+| Flask                 | Dashboard backend     |
+| MQTT                  | Node communication    |
+| Grafana               | Network visualization |
 
+---
 
+# Licensing
 
-|**Software**|**Purpose**|
-|-|-|
-|TensorFlow Lite Micro|Edge AI inference|
-|Flask|Dashboard backend|
-|MQTT|Node communication|
-|Grafana|Network visualization|
+This project uses the Apache License 2.0.
 
+## Third-Party Licenses
 
+| Component             | License    |
+| --------------------- | ---------- |
+| TensorFlow Lite Micro | Apache 2.0 |
+| Grafana               | AGPLv3     |
 
+---
 
+# Maintainers / Contact
 
-##### **6. Licensing**
-
-
-
-This project will use the Apache 2.0 License.
-
-
-
-###### **Third-Party Licenses**
-
-
-
-|**Component**|**License**|
-|-|-|
-|TensorFlow Lite Micro|Apache 2.0|
-|Grafana|AGPLv3|
-
-
-
-
-
-##### **7. Maintainers / Contacts**
-
-
-
-|**Name**|**Role**|**Contact Information**|**GitHub Profile**|
-|-|-|-|-|
-|**Shubhi Garg**|**Project Maintainer \& Developer**|**gargshubhi464@gmail.com /<br />shubhi.garg\_ec23@gla.ac.in**|**https://github.com/shubhi-garg27**|
-
-
-
+| Name            | Role                           | Contact                                                   | GitHub                           |
+| --------------- | ------------------------------ | --------------------------------------------------------- | -------------------------------- |
+| **Shubhi Garg** | Project Maintainer & Developer | [gargshubhi464@gmail.com](mailto:gargshubhi464@gmail.com) | https://github.com/shubhi-garg27 |
