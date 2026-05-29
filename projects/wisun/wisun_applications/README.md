@@ -38,7 +38,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |------------------|-------------|--------------------|
-| [creip-wisun-mesh](https://github.com/shubhi-garg27/creip-wisun-mesh) | CREIP is an AI-powered wireless mesh networking system built using Silicon Labs devices to improve communication reliability in dynamic RF environments. | [shubhi-garg27](https://github.com/shubhi-garg27) |
+| ---|---|--|
 
 ## Documentation ##
 
