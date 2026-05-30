@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [SolarOps](https://github.com/Pankaj-Singh-Rawat/SolarOps) | An enterprise-grade smart grid optimization system designed for Silicon Labs wireless hardware targets. It integrates a local-autonomy edge state machine, a containerized multi-service backend with automated Docker health checks, and a predictive AI engine forecasting day-ahead solar yield. | [@Pankaj-Singh-Rawat](https://github.com/Pankaj-Singh-Rawat) |
 
 ## Documentation ##
 
