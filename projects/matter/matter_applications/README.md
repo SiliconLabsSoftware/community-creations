@@ -36,7 +36,8 @@ Example row (copy/paste and edit):
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
-|:--|:--|:--|
+| [ClimateSphere](https://github.com/shubhi-garg27/ClimateSphere) | ClimateSphere creates personalized comfort zones by adapting lighting, airflow, and environmental conditions to the people who actually occupy a space—improving comfort while reducing energy waste. | [My Profile](https://github.com/shubhi-garg27) |
+
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
