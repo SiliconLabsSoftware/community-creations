@@ -34,9 +34,9 @@ Example row (copy/paste and edit):
 ```markdown
 | [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
 ```
-
 | Project (GitHub) | Description | Author/Contributor |
-| [ClimateSphere](https://github.com/shubhi-garg27/ClimateSphere) | ClimateSphere creates personalized comfort zones by adapting lighting, airflow, and environmental conditions to the people who actually occupy a space—improving comfort while reducing energy waste. | [My Profile](https://github.com/shubhi-garg27) |
+|------------------|-------------|-------------------|
+| [ClimateSphere](https://github.com/shubhi-garg27/ClimateSphere) | ClimateSphere creates personalized comfort zones by adapting lighting, airflow, and environmental conditions to the people who actually occupy a space, improving comfort while reducing energy waste. | [Shubhi Garg](https://github.com/shubhi-garg27) |
 
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
