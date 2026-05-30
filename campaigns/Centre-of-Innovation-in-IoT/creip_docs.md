@@ -24,7 +24,7 @@ The platform can:
 * reduce packet loss and latency,
 * and self-heal the network in real time.
 
-CREIP also creates a Digital RF Twin to visualize network behaviour, RF conditions, and node health across the infrastructure.
+CREIP also creates a Digital RF Twin to visualize network behavior, RF conditions, and node health across the infrastructure.
 
 Unlike conventional routing systems, CREIP combines:
 
@@ -58,17 +58,133 @@ to build a resilient and intelligent wireless ecosystem for future IoT deploymen
 
 # Technical Architecture
 
-### System Architecture Diagram
+## System Architecture
 
-Attached in the `images/` folder.
+```mermaid
+flowchart TD
 
-### Data Flow Architecture
+A[Sensor / Edge Nodes<br>EFR32MG24]
+--> B[Local RF Monitoring]
+--> C[Mesh Communication Layer]
+--> D[AI Cognitive Routing Engine<br>EFR32MG26]
 
-Attached in the `images/` folder.
+D --> E[RF Environment Learning Engine]
+E --> F[Digital RF Twin Database]
 
-### Self-Healing Workflow
+D --> G[Predictive Path Optimization]
+G --> H[Dynamic Route Assignment]
 
-Attached in the `images/` folder.
+D --> I[Congestion Prediction]
+D --> J[Self-Healing Network Logic]
+
+H --> K[Wi-SUN / Zigbee / Thread Mesh]
+
+K --> L[Cloud Dashboard / Local Monitoring]
+
+L --> M[RF Heatmaps]
+L --> N[Network Health Analytics]
+L --> O[Latency Visualization]
+L --> P[Packet Flow Visualization]
+```
+
+---
+
+## Data Flow Architecture
+
+```mermaid
+flowchart LR
+
+A[IoT Mesh Nodes]
+--> B[RF Metrics Collection]
+
+B --> C[RSSI]
+B --> D[SNR]
+B --> E[Latency]
+B --> F[Packet Loss]
+B --> G[Battery Health]
+B --> H[Congestion Level]
+
+C --> I[AI Inference Engine]
+D --> I
+E --> I
+F --> I
+G --> I
+H --> I
+
+I --> J[Predictive Route Decision]
+
+J --> K[Dynamic Path Allocation]
+
+K --> L[Optimized Mesh Communication]
+```
+
+---
+
+## Self-Healing Workflow
+
+```mermaid
+flowchart TD
+
+A[Node Health Monitoring]
+
+A --> B{Link Stability Healthy?}
+
+B -->|Yes| C[Continue Current Route]
+
+B -->|No| D[Predict Future Failure]
+
+D --> E[Generate Alternate Path]
+
+E --> F[Update Routing Table]
+
+F --> G[Traffic Re-Routing]
+
+G --> H[Mesh Stabilization]
+```
+
+---
+
+## AI Routing Decision Process
+
+```mermaid
+sequenceDiagram
+
+participant Node
+participant RFMonitor
+participant AIEngine
+participant Router
+participant Mesh
+
+Node->>RFMonitor: RSSI, SNR, Latency Data
+RFMonitor->>AIEngine: RF Metrics
+AIEngine->>AIEngine: Predict Link Quality
+AIEngine->>Router: Recommended Route
+Router->>Mesh: Update Routing Table
+Mesh-->>Node: Optimized Communication Path
+```
+
+---
+
+## Digital RF Twin Workflow
+
+```mermaid
+flowchart LR
+
+A[Mesh Nodes]
+--> B[RF Data Collection]
+
+B --> C[RF Environment Learning]
+
+C --> D[Digital RF Twin]
+
+D --> E[Heatmap Generation]
+D --> F[Node Health Analysis]
+D --> G[Congestion Mapping]
+
+E --> H[Monitoring Dashboard]
+F --> H
+G --> H
+```
 
 ---
 
