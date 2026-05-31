@@ -2,9 +2,15 @@
 
 ## Project Overview
 
-PoultryConnect is an IoT-based poultry monitoring and automation system designed to monitor environmental conditions such as temperature, humidity, harmful gas concentration, and dust levels inside poultry farms.
+PoultryConnect is an IoT-based smart poultry monitoring and automation system built using
+Silicon Labs wireless technology. The system uses the **Silicon Labs SIWX917 development board**
+as the central controller and IoT gateway, receiving environmental data from distributed
+**ESP32-based sensor nodes** deployed across poultry farm zones.
 
-The system uses ESP32-based sensor nodes and cloud integration to automate poultry farm equipment such as exhaust fans, pumps, feed systems, solenoid valves, and alarm systems for improved poultry health and farm management.
+It continuously monitors temperature, humidity, harmful gas concentration, dust levels, and
+ventilation quality. Based on predefined thresholds, the SIWX917 automatically controls exhaust
+fans, misting pumps, feed systems, solenoid valves, and alarm systems. Farm data is synced to
+**Firebase Realtime Database** for remote monitoring through a web dashboard.
 
 ## Team Members
 
