@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Botanical-Babysitter](https://github.com/saanidhyasharma-blip/Botanical-Babysitter-An-Edge-Based-Intelligent-Plant-Care-System) | Edge-based intelligent plant care system with full IoT automation, environmental sensors, and a beautiful Next.js web dashboard using ESP32 Wi-Fi. | [saanidhyasharma-blip](https://github.com/saanidhyasharma-blip) |
 
 ## Documentation ##
 
@@ -46,3 +47,5 @@ The official Wi-Fi documentation is available on the [Developer Documentation](h
 
 - For issues with a listed project, use the linked repository's issue tracker.
 - For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.
+
+
