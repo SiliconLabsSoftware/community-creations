@@ -37,7 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-
+| [SiWx917 HC-SR04 Ultrasonic Distance](https://github.com/sp678-crypto/siwx917-hcsr04-ultrasonic) | HC-SR04 ultrasonic distance measurement on SiWx917 (BRD2605A) using a custom GPIO echo-timing driver and sleep timer. Arduino generates the trigger pulse. | [sp678-crypto](https://github.com/sp678-crypto) |
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
