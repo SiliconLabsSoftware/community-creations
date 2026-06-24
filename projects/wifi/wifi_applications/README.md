@@ -38,7 +38,7 @@ Example row (copy/paste and edit):
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
 | [SiWx917 External LED Blink](https://github.com/ab8642/siwx917-led-blink) | Blinks an external LED on SiWx917 (BRD2605A) using the Si91x GPIO driver and sleep timer via Simplicity Studio 5. | [ab8642](https://github.com/ab8642) |
-| [SiWx917 IR Sensor](https://github.com/ab8642/siwx917-ir-sensor) | IR sensor interfacing on SiWx917 (BRD2605A) using the Si91x GPIO driver for object detection with serial output via Simplicity Studio 5. | [ab8642](https://github.com/ab8642) |
+| [SiWx917 IR Sensor](https://github.com/ab8642/siwx917_IRsensor) | IR sensor interfacing on SiWx917 (BRD2605A) using the Si91x GPIO driver for object detection with serial output via Simplicity Studio 5. | [ab8642](https://github.com/ab8642) |
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
