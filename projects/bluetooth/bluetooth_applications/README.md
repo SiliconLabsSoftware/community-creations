@@ -30,13 +30,11 @@ To avoid merge conflicts when multiple PRs are created around the same time, ple
 
 Example row (copy/paste and edit):
 
-```markdown
-| [real-time-gesture-recognition-siwx917](https://github.com/Sree-Charan05/real-time-gesture-recognition-siwx917) | Real-time gesture recognition using the onboard IMU of the Silicon Labs SiWx917 SoC with RTOS-based sensor processing. | [Sree-Charan05](https://github.com/Sree-Charan05) |
-```
+| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-| real-time-gesture-recognition-siwx917 | Real-time gesture recognition and motion intelligence using the onboard IMU on the Silicon Labs SiWx917, with RTOS-based sensor processing and UART monitoring. | Sree-Charan05 |
+
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
