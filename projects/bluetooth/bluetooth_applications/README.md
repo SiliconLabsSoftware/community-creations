@@ -31,7 +31,7 @@ To avoid merge conflicts when multiple PRs are created around the same time, ple
 Example row (copy/paste and edit):
 
 ```markdown
-| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
+| [real-time-gesture-recognition-siwx917](https://github.com/Sree-Charan05/real-time-gesture-recognition-siwx917) | Real-time gesture recognition using the onboard IMU of the Silicon Labs SiWx917 SoC with RTOS-based sensor processing. | [Sree-Charan05](https://github.com/Sree-Charan05) |
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
