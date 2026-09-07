@@ -36,6 +36,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| real-time-gesture-recognition-siwx917 | Real-time gesture recognition and motion intelligence using the onboard IMU on the Silicon Labs SiWx917, with RTOS-based sensor processing and UART monitoring. | Sree-Charan05 |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
