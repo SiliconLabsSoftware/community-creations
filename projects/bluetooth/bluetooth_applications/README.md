@@ -30,12 +30,11 @@ To avoid merge conflicts when multiple PRs are created around the same time, ple
 
 Example row (copy/paste and edit):
 
-```markdown
 | [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
-```
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
