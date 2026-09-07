@@ -37,7 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-
+| [real-time-gesture-recognition-siwx917](https://github.com/Sree-Charan05/real-time-gesture-recognition-siwx917) | Real-time gesture recognition using the onboard IMU of the Silicon Labs SiWx917 SoC with RTOS-based sensor processing. | [Sree-Charan05](https://github.com/Sree-Charan05) |
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
