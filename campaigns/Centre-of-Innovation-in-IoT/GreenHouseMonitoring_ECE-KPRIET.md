@@ -217,11 +217,12 @@ The current implementation does not require an external gateway such as a Raspbe
 
 | Component             | Version                           |
 | --------------------- | --------------------------------- |
-| **Silicon Labs SDK**  | `<ADD_USED_VERSION>`              |
-| **Simplicity Studio** | `<ADD_USED_VERSION>`              |
-| **Reference Example** | `<ADD_REFERENCE_EXAMPLE_IF_USED>` |
+| **WiSeConnect SDK** | `4.1.1` |
+| **Simplicity SDK** | `2026.6.1` |
+| **Simplicity Studio** | `6.2.0` |
+| **FreeRTOS** | `11.1.0` |
+| **GNU ARM Toolchain** | `12.2.1` |
 
-> Replace the placeholders above with the exact versions used to develop and test the project.
 
 ### External Software Dependencies
 
@@ -250,7 +251,6 @@ Third-party software, SDKs, libraries, and other components used by the project 
 * Any third-party libraries included in the project must retain their original license and copyright notices.
 * Third-party source code should be identified separately in accordance with its license requirements.
 
-> **Note:** Confirm the officially required license for the COI submission before finalizing this section.
 
 ---
 
@@ -262,4 +262,3 @@ Third-party software, SDKs, libraries, and other components used by the project 
 | Shri Soumitra KS | Developer | soumitrakouselya2006@gmail.com | [soumitra2006-kouselya](https://github.com/soumitra2006-kouselya) |
 | Srinidhi M | Developer | srinidhimurugesan004@gmail.com | [srinidhimurugesan004-dot](https://github.com/srinidhimurugesan004-dot) |
 | Ragadharshini S | Developer | ragadharshinisampath25@gmail.com | [ragadharshini](https://github.com/Ragadharshini25) |
-| MARUFU ALLISON | Developer | 23ec064@kpriet.ac.in | [marufu-allision](https://github.com/soumitra2006-kouselya) |
