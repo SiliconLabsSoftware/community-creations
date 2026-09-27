@@ -256,13 +256,10 @@ Third-party software, SDKs, libraries, and other components used by the project 
 
 ## 9. Maintainers / Contacts
 
-| Name               | Role                           | Contact Information                                 | GitHub Profile                            |
-| ------------------ | ------------------------------ | --------------------------------------------------- | ----------------------------------------- |
-## 9. Maintainers / Contacts
-| Name           | Role      | Contact Information             |
-| -------------- | --------- | ------------------------------- | 
-| Ragavappranesh S | Team Lead | ragavpranesh1@gmail.com          |
-| Shri Soumitra KS  | Developer | soumitrakouselya2006@gmail.com       | 
-| Srinidhi M     | Developer | srinidhimurugesan004@gmail.com  | 
-| Ragadharshini S       | Developer | ragadharshinisampath25@gmail.com        |          
-| MARUFU ALLISON   | Developer | 23ec064@kpriet.ac.in     | 
+| Name | Role | Contact Information | GitHub Profile |
+|------|------|---------------------|----------------|
+| Ragavappranesh S | Team Lead | ragavpranesh1@gmail.com | [Ragav2107](https://github.com/Ragav2107) |
+| Shri Soumitra KS | Developer | soumitrakouselya2006@gmail.com | [soumitra2006-kouselya](https://github.com/soumitra2006-kouselya) |
+| Srinidhi M | Developer | srinidhimurugesan004@gmail.com | [srinidhimurugesan004-dot](https://github.com/srinidhimurugesan004-dot) |
+| Ragadharshini S | Developer | ragadharshinisampath25@gmail.com | [ragadharshini](https://github.com/Ragadharshini25) |
+| MARUFU ALLISON | Developer | 23ec064@kpriet.ac.in | [marufu-allision](https://github.com/soumitra2006-kouselya) |
