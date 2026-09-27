@@ -1,377 +1,268 @@
-# IoT Enabled Greenhouse Environmental Monitoring System with Integrated Wireless Gateway using Silicon Labs SiWG917_ECE_KPRIET
+# Centre of Innovation in IoT Project
 
-## Silicon Labs Centre of Innovation in IoT Project
+# IoT Enabled Greenhouse Environmental Monitoring System with Integrated Wireless Gateway using Silicon Labs SiWG917
 
-### Team Information
+## 1. Project Overview
 
-**Institution:** KPR Institute of Engineering and Technology, Coimbatore, Tamil Nadu, India
+The **IoT Enabled Greenhouse Environmental Monitoring System** is a standalone environmental monitoring solution developed using the **Silicon Labs SiWG917 Wireless MCU**.
 
-**Department:** Electronics and Communication Engineering
+The system is designed to monitor important greenhouse parameters such as:
 
-**Program:** Silicon Labs Centre of Innovation (COI) in IoT
+* Temperature
+* Relative humidity
+* Ambient light intensity
 
----
+The SiWG917 collects sensor data, processes it locally, analyzes the environmental conditions, and generates recommendations based on predefined thresholds.
 
-# Abstract
+The device operates as a **Wi-Fi Access Point** and hosts an embedded **HTTP web server**. Users can connect directly to the SiWG917 using a smartphone or laptop and monitor the greenhouse through a web-based dashboard.
 
-Greenhouse farming requires continuous monitoring of environmental conditions to ensure healthy plant growth and maximize crop yield. Traditional monitoring systems often depend on cloud platforms, internet connectivity, and expensive infrastructure.
+The system does not require cloud services, MQTT, an external gateway, or a database. Historical sensor readings can also be stored and downloaded in **CSV format** for analysis and record keeping.
 
-This project presents an IoT Enabled Greenhouse Environmental Monitoring System using the Silicon Labs SiWG917 Wireless MCU. The system continuously monitors critical environmental parameters including temperature, humidity, and ambient light intensity using the onboard sensors available in the SiWG917 development kit.
+### Objectives
 
-The SiWG917 processes the collected sensor data locally and operates as a standalone Wi-Fi Access Point while hosting an embedded HTTP web server. Users can connect directly to the device through Wi-Fi and access a real-time environmental monitoring dashboard using any standard web browser without requiring cloud services, mobile applications, databases, or external gateways.
-
-The system further analyzes environmental conditions and provides intelligent recommendations to improve greenhouse quality. Historical sensor readings can also be downloaded in CSV format for analysis and record keeping.
-
-The proposed solution offers a low-cost, lightweight, portable, and easy-to-deploy smart greenhouse monitoring platform suitable for agriculture, research, educational, and IoT applications.
-
----
-
-# Problem Statement
-
-Greenhouse environments require continuous monitoring to maintain optimal growing conditions. Existing solutions often face challenges such as:
-
-* Dependence on internet connectivity
-* Cloud subscription costs
-* Complex deployment and maintenance
-* Limited portability
-* High implementation costs
-
-There is a need for a lightweight standalone monitoring solution capable of providing real-time environmental insights and recommendations without relying on cloud infrastructure.
+* Monitor greenhouse temperature.
+* Monitor relative humidity.
+* Monitor ambient light intensity.
+* Process sensor data locally.
+* Analyze environmental conditions.
+* Generate environmental status information.
+* Generate recommendations for improving greenhouse conditions.
+* Configure SiWG917 as a Wi-Fi Access Point.
+* Host an embedded HTTP web server.
+* Provide a browser-based monitoring dashboard.
+* Enable CSV data logging and download.
+* Minimize dependency on external infrastructure.
 
 ---
 
-# Project Objectives
+## 2. Technical Architecture
 
-The objectives of this project are:
+### 2.1 System Architecture
 
-* Monitor greenhouse temperature
-* Monitor relative humidity
-* Monitor ambient light intensity
-* Analyze environmental conditions locally
-* Generate environment status reports
-* Provide recommendations for environmental improvement
-* Configure Silicon Labs SiWG917 as a Wi-Fi Access Point
-* Host a lightweight embedded web server
-* Display environmental information through a browser dashboard
-* Enable CSV data download for analysis
-* Eliminate dependency on cloud services
-* Minimize power consumption and memory usage
+```mermaid
+flowchart TD
+
+    A[Temperature Sensor] --> D[Silicon Labs SiWG917]
+    B[Humidity Sensor] --> D
+    C[Ambient Light Sensor] --> D
+
+    D --> E[Data Acquisition]
+    E --> F[Data Processing]
+    F --> G[Environmental Analysis]
+    G --> H[Recommendation Engine]
+
+    F --> I[CSV Data Logger]
+
+    G --> J[JSON Data Generation]
+    H --> J
+
+    D --> K[Wi-Fi Access Point]
+    K --> L[Embedded HTTP Server]
+
+    J --> L
+
+    L --> M[Smartphone]
+    L --> N[Laptop]
+
+    M --> O[Web Dashboard]
+    N --> O
+
+    I --> O
+```
+
+### 2.2 Data Flow
+
+```mermaid
+flowchart LR
+
+    A[Temperature] --> D[Data Acquisition]
+    B[Humidity] --> D
+    C[Light] --> D
+
+    D --> E[Data Processing]
+    E --> F[Environmental Analysis]
+    F --> G[Recommendation Engine]
+
+    E --> H[CSV Data Logger]
+
+    F --> I[JSON Generation]
+    G --> I
+
+    I --> J[HTTP Server]
+    J --> K[Web Dashboard]
+```
+
+### 2.3 Wireless Communication
+
+```mermaid
+flowchart TD
+
+    A[Silicon Labs SiWG917] --> B[Wi-Fi Access Point]
+
+    B --> C[Smartphone]
+    B --> D[Laptop]
+
+    C --> E[Web Browser]
+    D --> E
+
+    E --> F[Greenhouse Monitoring Dashboard]
+```
+
+### 2.4 System Working Flow
+
+```mermaid
+flowchart TD
+
+    A[Initialize SiWG917] --> B[Initialize Sensors]
+    B --> C[Read Environmental Parameters]
+    C --> D[Process Sensor Data]
+    D --> E[Analyze Environmental Conditions]
+    E --> F[Generate Status]
+    F --> G[Generate Recommendation]
+    G --> H[Generate JSON Response]
+    H --> I[HTTP Web Server]
+    I --> J[Web Dashboard]
+
+    D --> K[Periodic Data Logging]
+    K --> L[CSV File]
+```
 
 ---
 
-# System Overview
+## 3. Technologies Used
 
-The Silicon Labs SiWG917 serves as the central controller of the system.
+### Wireless Technologies
 
-The device performs four major functions:
+* **Wi-Fi**
+* Wi-Fi Access Point mode
+* Local wireless communication between SiWG917 and user devices
 
-1. Environmental Data Acquisition
-2. Data Processing and Analysis
-3. Recommendation Generation
-4. Wireless Gateway and Web Server Operation
+### Silicon Labs Platform
 
-The collected environmental data is displayed on a local web dashboard accessible through Wi-Fi.
+* **Silicon Labs SiWG917 Wireless MCU**
+* Silicon Labs SiWG917 Development Kit
+* Silicon Labs SDK
+* Silicon Labs Wi-Fi software components
+* Embedded HTTP server components
 
----
+### Programming Languages
 
-# Key Features
+* **C** – Embedded firmware development
+* **HTML** – Web dashboard
+* **CSS** – Web dashboard styling
+* **JavaScript** – Web dashboard functionality
+* **JSON** – Sensor data exchange
+* **CSV** – Historical data storage
 
-* Real-time environmental monitoring
-* Temperature sensing
-* Humidity sensing
-* Ambient light sensing
-* Environmental quality analysis
-* Automated recommendations
-* Local Wi-Fi Access Point mode
-* Embedded HTTP web server
+### Software Functions
+
+* Sensor data acquisition
+* Environmental data processing
+* Environmental condition analysis
+* Threshold-based recommendation generation
+* Wi-Fi Access Point operation
+* Embedded HTTP server
+* JSON data generation
+* CSV data logging
 * Browser-based dashboard
-* CSV report download
-* Lightweight firmware architecture
-* No cloud dependency
-* No MQTT dependency
-* No database requirement
-* Low-cost implementation
-* Easy deployment
+
+### Development Tools
+
+* Silicon Labs Simplicity Studio
+* Silicon Labs SDK
+* Visual Studio Code
+* Git
+* GitHub
+* Web browser
 
 ---
 
-# Hardware Components
+## 4. Hardware Components
 
-| Component                    | Purpose                              |
-| ---------------------------- | ------------------------------------ |
-| Silicon Labs SiWG917 Dev Kit | Main Controller and Wireless Gateway |
-| Onboard Temperature Sensor   | Temperature Monitoring               |
-| Onboard Humidity Sensor      | Humidity Monitoring                  |
-| Onboard Light Sensor         | Ambient Light Monitoring             |
-| USB Power Supply             | System Power                         |
+### Silicon Labs Hardware
 
----
+| Component                                | Purpose                                                           |
+| ---------------------------------------- | ----------------------------------------------------------------- |
+| **Silicon Labs SiWG917 Development Kit** | Main controller and wireless gateway                              |
+| **SiWG917 Wireless MCU**                 | Sensor processing, Wi-Fi communication, and HTTP server operation |
+| **Onboard Temperature Sensor**           | Temperature monitoring                                            |
+| **Onboard Humidity Sensor**              | Relative humidity monitoring                                      |
+| **Onboard Light Sensor**                 | Ambient light monitoring                                          |
 
+### External Hardware
 
-# System Architecture
+| Component                             | Purpose                                                      |
+| ------------------------------------- | ------------------------------------------------------------ |
+| **USB Cable**                         | Power supply and programming                                 |
+| **Laptop / PC**                       | Firmware development and system configuration                |
+| **Smartphone / Wi-Fi-enabled device** | Connect to the SiWG917 Access Point and access the dashboard |
 
-```text
-+---------------------------+
-| Temperature Sensor        |
-+-------------+-------------+
-              |
-+-------------v-------------+
-| Humidity Sensor           |
-+-------------+-------------+
-              |
-+-------------v-------------+
-| Light Sensor              |
-+-------------+-------------+
-              |
-              v
-
-+---------------------------+
-|   Silicon Labs SiWG917    |
-|                           |
-| - Data Acquisition        |
-| - Data Analysis           |
-| - Recommendation Engine   |
-| - Wi-Fi Access Point      |
-| - HTTP Web Server         |
-| - CSV Data Logger         |
-+-------------+-------------+
-              |
-              | Wi-Fi AP
-              |
-      +-------+-------+
-      |               |
-+-----v-----+ +-------v----+
-| Smartphone| |   Laptop   |
-+-----------+ +------------+
-              |
-              v
-      Web Dashboard
-```
+The current implementation does not require an external gateway such as a Raspberry Pi.
 
 ---
 
-# Hardware Block Diagram
+## 7. Software Components / Dependencies
 
-```text
-Temperature Sensor
-        |
-Humidity Sensor
-        |
-Light Sensor
-        |
-        v
+### Silicon Labs Dependencies
 
-+-------------------+
-|   SiWG917 MCU     |
-+-------------------+
-        |
-        |
-        +----------------------+
-                               |
-                         Wi-Fi AP Mode
-                               |
-            +------------------+------------------+
-            |                                     |
-         Mobile                               Laptop
-            |                                     |
-            +----------- Dashboard ---------------+
-```
+| Dependency                    | Purpose                                                     |
+| ----------------------------- | ----------------------------------------------------------- |
+| **SiWG917 SDK**               | Firmware development for the SiWG917                        |
+| **Simplicity Studio**         | Project development, configuration, flashing, and debugging |
+| **Wi-Fi Software Components** | Wi-Fi Access Point functionality                            |
+| **HTTP Server Components**    | Embedded web-server functionality                           |
+| **Sensor Drivers / APIs**     | Communication with the onboard sensors                      |
 
----
+### Version Information
 
-# Data Flow Diagram
+| Component             | Version                           |
+| --------------------- | --------------------------------- |
+| **Silicon Labs SDK**  | `<ADD_USED_VERSION>`              |
+| **Simplicity Studio** | `<ADD_USED_VERSION>`              |
+| **Reference Example** | `<ADD_REFERENCE_EXAMPLE_IF_USED>` |
 
-```text
-Temperature
-      +
-Humidity
-      +
-Light
-      |
-      v
+> Replace the placeholders above with the exact versions used to develop and test the project.
 
-Data Acquisition
-      |
-      v
+### External Software Dependencies
 
-Data Processing
-      |
-      v
+The project does not require cloud services, MQTT brokers, or external databases.
 
-Environment Analysis
-      |
-      v
+Development and access may require:
 
-Recommendation Engine
-      |
-      v
-
-JSON Generation
-      |
-      v
-
-HTTP Server
-      |
-      v
-
-Web Dashboard
-```
+* Visual Studio Code
+* Git
+* GitHub
+* Modern web browser
 
 ---
 
-# Working Principle
+## 8. Licensing
 
-1. The onboard sensors continuously collect environmental data.
-2. SiWG917 reads temperature, humidity, and light intensity values.
-3. Sensor readings are processed locally.
-4. Environmental conditions are analyzed against predefined thresholds.
-5. The system determines the current greenhouse status.
-6. Recommendations are generated to improve environmental quality.
-7. Sensor data is logged periodically.
-8. CSV files are generated for historical data storage.
-9. SiWG917 operates as a Wi-Fi Access Point.
-10. Users connect directly to the device through Wi-Fi.
-11. Embedded HTTP server provides dashboard pages.
-12. Browser periodically requests updated sensor information.
+This project is released under the **Apache License 2.0**.
 
----
+The complete license text is available in the [`LICENSE`](LICENSE) file.
 
-# Wi-Fi Configuration
+Third-party software, SDKs, libraries, and other components used by the project remain subject to their respective licenses.
 
-SSID:
-SiWG917
+### Third-Party License Considerations
 
-Password:
-12345678
+* Silicon Labs SDK and software components are subject to their respective Silicon Labs licensing terms.
+* Any third-party libraries included in the project must retain their original license and copyright notices.
+* Third-party source code should be identified separately in accordance with its license requirements.
 
-Default IP:
-192.168.10.11
+> **Note:** Confirm the officially required license for the COI submission before finalizing this section.
 
 ---
 
-# Dashboard Interface
+## 9. Maintainers / Contacts
 
-```text
--------------------------------------------
-Greenhouse Monitoring Dashboard
--------------------------------------------
-
-Temperature : 29.5 °C
-
-Humidity    : 62 %
-
-Light Level : 740 Lux
-
-Status      : Optimal
-
-Recommendation:
-Maintain current environmental conditions.
-
-Last Update : 10:15:22
-
-[ Download CSV ]
-
--------------------------------------------
-```
-
----
-
-# Example JSON Response
-
-```json
-{
-  "temperature": 29.5,
-  "humidity": 62,
-  "light": 740,
-  "status": "Optimal",
-  "recommendation": "Maintain current environmental conditions."
-}
-```
-
----
-
-# Environmental Analysis Logic
-
-| Parameter   | Condition | Status                          |
-| ----------- | --------- | ------------------------------- |
-| Temperature | Too High  | Ventilation Required            |
-| Temperature | Too Low   | Increase Heating                |
-| Humidity    | Too High  | Reduce Moisture                 |
-| Humidity    | Too Low   | Increase Irrigation             |
-| Light       | Too Low   | Additional Lighting Recommended |
-| Light       | Too High  | Provide Shade                   |
-
----
-
-# Example Recommendations
-
-* Increase greenhouse ventilation.
-* Reduce humidity levels.
-* Increase irrigation frequency.
-* Activate supplemental lighting.
-* Deploy shading mechanisms.
-* Maintain current environmental conditions.
-
----
-
-# CSV Data Logging
-
-The system periodically stores environmental data and allows users to download logs in CSV format.
-
-Example:
-
-```csv
-Timestamp,Temperature,Humidity,Light,Status
-10:00:00,29.1,61,735,Optimal
-10:05:00,29.4,62,742,Optimal
-10:10:00,29.5,62,740,Optimal
-```
-
----
-
----
-
-# Results
-
-The system successfully:
-
-* Acquired environmental parameters
-* Processed sensor data locally
-* Analyzed greenhouse conditions
-* Generated improvement recommendations
-* Hosted an embedded web server
-* Operated as a standalone Wi-Fi Access Point
-* Displayed real-time environmental information
-* Generated downloadable CSV reports
-* Eliminated cloud dependency
-
----
-
-# Applications
-
-* Smart Greenhouses
-* Precision Agriculture
-* Indoor Farming
-* Hydroponic Systems
-* Agricultural Research Centers
-* Educational IoT Laboratories
-* Environmental Monitoring Systems
-
----
-
-# Advantages
-
-* Low Cost
-* Portable
-* Easy Deployment
-* Cloud Independent
-* Low Power Consumption
-* Real-Time Monitoring
-* CSV Data Export
-* Intelligent Recommendations
-* Scalable Architecture
-* Beginner Friendly
-
----
-
-tunities that enabled the successful development of this Greenhouse Environmental Monitoring System.
+| Name               | Role                           | Contact Information                                 | GitHub Profile                            |
+| ------------------ | ------------------------------ | --------------------------------------------------- | ----------------------------------------- |
+## 9. Maintainers / Contacts
+| Name           | Role      | Contact Information             |
+| -------------- | --------- | ------------------------------- | 
+| Ragavappranesh S | Team Lead | ragavpranesh1@gmail.com          |
+| Shri Soumitra KS  | Developer | soumitrakouselya2006@gmail.com       | 
+| Srinidhi M     | Developer | srinidhimurugesan004@gmail.com  | 
+| Ragadharshini S       | Developer | ragadharshinisampath25@gmail.com        |          
+| MARUFU ALLISON   | Developer | 23ec064@kpriet.ac.in     | 
