@@ -37,6 +37,9 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Voice Controlled Relay Light](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET/tree/main/aiml_soc_voice_control_light_siwg917_baremetal1) | A voice-controlled home automation application built using the Silicon Labs SiWG917 platform, featuring offline voice recognition with TensorFlow Lite Micro and GPIO-based relay control for appliance automation. | [vichukuttan4000](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET) |
+| [Voice Controlled RGB Lighting System](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET/tree/main/aiml_soc_voice_control_light_siwg917_baremetal2) | A voice-controlled RGB lighting application using the Silicon Labs SiWG917 platform, onboard microphone, TensorFlow Lite Micro, and RGB LED control for embedded Edge AI demonstration. | [vichukuttan4000](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET) |
+| [Ambient Light Monitoring System](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET/tree/main/sl_si91x_veml6035) | An ambient light monitoring application built on the Silicon Labs SiWG917 platform using the onboard VEML6035 sensor and I2C interface for real-time lux measurement and brightness classification. | [vichukuttan4000](https://github.com/vichukuttan4000/WiVox_ECE_KPRIET) |
 
 ## Documentation ##
 
