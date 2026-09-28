@@ -20,6 +20,7 @@ As a community-driven project, we encourage contributions, feedback, and collabo
 ## Submodules ##
 
 - Java Implementation of PCAP and PCAPNG File Format
+- [Classroom Environmental Monitoring using SiWG917](https://github.com/AdityaKolluru05/Classroom-monitoring_using_SiWG917-Development-Board) — IoT-based classroom monitoring system using the SiWG917 to track temperature, humidity, and noise, publishing data to ThingSpeak via MQTT with automated email alerts. By [Aditya Kolluru](https://github.com/AdityaKolluru05).
 
 ## Documentation ##
 
