@@ -34,9 +34,8 @@ Example row (copy/paste and edit):
 ```markdown
 | [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
 ```
-
-| Project (GitHub) | Description | Author/Contributor |
-|:--|:--|:--|
+Project (GitHub)	- Description - 	Author/Contributor
+BLU-PATH: Embedded Web-Based Indoor Navigation System	Embedded web-based indoor navigation system on the BRD2605A (SiWx917) board; hosts a local Wi-Fi AP and web server so visitors can navigate campus without internet or a mobile app - mjjerlin-gif
 
 ## Documentation ##
 
