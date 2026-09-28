@@ -37,7 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-
+| [BLE-Based Edge Predictive Maintenance & Auto Fault Ticket Generator](https://github.com/GokulSiddarth3108/DigitalTwinMonitor) | Edge predictive-maintenance system for the Silicon Labs SiWG917 that processes vibration and motor-current telemetry locally using edge inference and CMSIS-NN to detect equipment anomalies. | [GokulSiddarth3108](https://github.com/GokulSiddarth3108) |
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
