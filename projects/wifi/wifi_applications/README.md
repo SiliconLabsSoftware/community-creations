@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [IoT Smart Helmet](https://github.com/Arjxn404/IoT-Smart-Helmet_ECE_KPRIET) | An IoT-enabled smart helmet built with the Silicon Labs SiWx917 platform for industrial worker safety. It provides Wi-Fi connectivity and enables hazard monitoring, emergency alerts, and real-time safety status reporting. | [Arjxn404](https://github.com/Arjxn404) |
 
 ## Documentation ##
 
