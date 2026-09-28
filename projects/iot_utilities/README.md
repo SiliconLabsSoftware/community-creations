@@ -20,7 +20,7 @@ As a community-driven project, we encourage contributions, feedback, and collabo
 ## Submodules ##
 
 - Java Implementation of PCAP and PCAPNG File Format
-
+-- [AI-Based Bird Behavior Monitoring using SiWx917](https://github.com/SahilBhusan/Silicon_labs) - AI-powered bird classification and behavior monitoring system built using the Silicon Labs SiWx917 Wi-Fi, combining edge intelligence, wireless sensor networking, and cloud analytics for real-time wildlife monitoring. *Team:* P Sanjeev, Sahil Bhusan.
 ## Documentation ##
 
 Official documentation can be found at our [Developer Documentation](https://docs.silabs.com/#section-mcu-wireless) page.
