@@ -36,6 +36,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [High-Pressure Pipe Acoustic Leak Detection System](https://github.com/GokulSiddarth3108/leak-detector) | An edge AI acoustic leak detection system for continuous high-pressure pipe monitoring using Silicon Labs SiWx917 hardware, MEMS microphone input, DSP, and TinyML inference. | [GokulSiddarth3108](https://github.com/GokulSiddarth3108) |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
