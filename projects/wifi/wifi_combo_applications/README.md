@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [IoT-Enabled-Greenhouse-Environmental-Monitoring-System-SiWG917-ECE-KPRIET](https://github.com/Ragav2107/IoT-Enabled-Greenhouse-Environmental-Monitoring-System-SiWG917-ECE-KPRIET) | IoT-based greenhouse environmental monitoring system that monitors temperature, humidity, and light conditions and provides the sensor data through a web interface using the Silicon Labs SiWG917 Wi-Fi platform. | [Ragavappranesh](https://github.com/Ragav2107) |
 
 ## Documentation ##
 
