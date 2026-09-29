@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [VisionPick SCARA](https://github.com/<org-or-user>/VisionPick-SCARA) | AI-powered SCARA robot for semiconductor wafer handling, vision-based defect detection, and automated sorting using embedded systems, robotics, and optional Silicon Labs wireless connectivity. | [Abhishek Seth](https://github.com/Abhishek05eccs) |
 
 ## Reporting Design Issues and Posting Questions and Comments ##
 
