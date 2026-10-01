@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Si917 Edge-AI Predictive Maintenance](https://github.com/Saisriram53/si917-predictive-maintenance) | Real-time Edge-AI vibration and environmental anomaly detection with predictive maintenance dashboard using Silicon Labs Si917 SoC and WiSeConnect SDK. | [Saisriram53](https://github.com/Saisriram53) |
 
 ## Documentation ##
 
