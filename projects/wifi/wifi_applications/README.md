@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [siwx917-dv-harness](https://github.com/m0hiith/siwx917-dv-harness) | Unattended design-validation harness for SiWx917 kits: flashes RPS firmware via Simplicity Commander, resets, and repeats the cycle N times, reporting every result as mean ± standard deviation against configurable pass/fail limits with timestamped raw data and a run manifest. Power measurement requires an AEM-equipped setup (BRD4338A on BRD4002A) or an external meter — the DK2605A reports `AEM Supported: False`. | [m0hiith](https://github.com/m0hiith) |
 
 ## Documentation ##
 
