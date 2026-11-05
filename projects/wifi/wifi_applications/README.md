@@ -38,6 +38,7 @@ Example row (copy/paste and edit):
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
 | [twindock](https://github.com/m0hiith/twindock) | Browser-based 3D digital twin of a warehouse and factory, driven live over Wi-Fi/MQTT by a SiWx917 (BRD2605A) dev kit running custom WiSeConnect C firmware that reports status and buttons and takes LED commands. Everything except the board is a clearly labelled simulation. | [m0hiith](https://github.com/m0hiith) |
+| [SiWG917-SafeHaven](https://github.com/muralikrishnapalisetti/SiWG917-SafeHaven) | A safety-monitoring prototype built with the Silicon Labs SiWG917/SiWx917 that streams microphone audio over Wi-Fi UDP to a host PC for local Vosk speech recognition. A configured emergency phrase can trigger event validation and automatic webcam video evidence capture on the host. | [muralikrishnapalisetti](https://github.com/muralikrishnapalisetti) |
 
 ## Documentation ##
 
