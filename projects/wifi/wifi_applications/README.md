@@ -36,7 +36,7 @@ Example row (copy/paste and edit):
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
-| [Smart City IoT Platform](https://github.com/Somnathsuraj007/Smart_City) | Smart City IoT platform built with Silicon Labs SiWx917, featuring environmental monitoring, smart parking, and noise pollution monitoring with MQTT-based telemetry  and a unified dashboard. | [Somnathsuraj007](https://github.com/Somnathsuraj007)  |
+| [Smart City IoT Platform](https://github.com/Somnathsuraj007/Smart_City) | Smart City IoT platform built with Silicon Labs SiWx917, featuring environmental monitoring, smart parking, and noise pollution monitoring with MQTT-based telemetry and a unified dashboard. | [Somnathsuraj007](https://github.com/Somnathsuraj007)  |
 
 
 ## Documentation ##
