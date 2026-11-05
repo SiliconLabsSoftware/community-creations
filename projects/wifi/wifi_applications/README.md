@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [SiWG917-SafeHaven](https://github.com/muralikrishnapalisetti/SiWG917-SafeHaven) | A safety-monitoring prototype built with the Silicon Labs SiWG917/SiWx917 that streams microphone audio over Wi-Fi UDP to a host PC for local Vosk speech recognition. A configured emergency phrase can trigger event validation and automatic webcam video evidence capture on the host. | [muralikrishnapalisetti](https://github.com/muralikrishnapalisetti) |
 
 ## Documentation ##
 
