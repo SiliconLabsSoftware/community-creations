@@ -38,6 +38,9 @@ Example row (copy/paste and edit):
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
 | [MiniFace for SiWG917 BRD2605A](https://github.com/TharunBabu-05/Silicon_labs_SiWG917_BRD2605A) | An interactive VCOM-native desktop interface for the Silicon Labs SiWG917 BRD2605A. It provides on-demand Wi-Fi configuration, live board telemetry, and audio diagnostics while conserving RAM when tools are closed. | [TharunBabu-05](https://github.com/TharunBabu-05) |
+| [SiWG917 Digital Twin](https://github.com/gnaneshchandragupta17-cyber/siwg917-digital-twin) | Industrial machine monitoring and digital twin system using the Silicon Labs SiWG917 Wi-Fi SoC, with sensor acquisition, AI-based health prediction, remaining useful life prediction, backend services, and a web dashboard. | [gnaneshchandragupta17-cyber](https://github.com/gnaneshchandragupta17-cyber) |
+| [twindock](https://github.com/m0hiith/twindock) | Browser-based 3D digital twin of a warehouse and factory, driven live over Wi-Fi/MQTT by a SiWx917 (BRD2605A) dev kit running custom WiSeConnect C firmware that reports status and buttons and takes LED commands. Everything except the board is a clearly labelled simulation. | [m0hiith](https://github.com/m0hiith) |
+| [SiWG917-SafeHaven](https://github.com/muralikrishnapalisetti/SiWG917-SafeHaven) | A safety-monitoring prototype built with the Silicon Labs SiWG917/SiWx917 that streams microphone audio over Wi-Fi UDP to a host PC for local Vosk speech recognition. A configured emergency phrase can trigger event validation and automatic webcam video evidence capture on the host. | [muralikrishnapalisetti](https://github.com/muralikrishnapalisetti) |
 
 ## Documentation ##
 
