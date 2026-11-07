@@ -36,6 +36,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Smart-IoT-Based-Heatwave-Protection-System](https://github.com/Devilwelcometohell/Smart-IoT-Based-Heatwave-Protection-System) | HeatShield-IoT is a smart wearable system that combines real-time health monitoring with automatic cooling to protect users from heat stress and heatstroke during extreme heatwave conditions. The system uses a Smart Health Monitoring Band and a Smart Neck Cooling Gadget that work together through IoT connectivity to monitor vital signs, detect heat-related risks, and provide proactive cooling and safety alerts.| [Devang Shukla](https://github.com/Devilwelcometohell) |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
