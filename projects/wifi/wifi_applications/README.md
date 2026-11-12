@@ -8,7 +8,7 @@ Wifi technology offers so many exciting possibilities, and we’d love to see wh
 
 1. Silicon Labs SiWx91x development kit
 2. Simplicity Studio 5
-3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+3. Compatible SDK version; you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
 5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
@@ -37,7 +37,11 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+
+| [Smart City IoT Platform](https://github.com/Somnathsuraj007/Smart_City) | Smart City IoT platform built with Silicon Labs SiWx917, featuring environmental monitoring, smart parking, and noise pollution monitoring with MQTT-based telemetry and a unified dashboard. | [Somnathsuraj007](https://github.com/Somnathsuraj007) |
+
 | [Classroom Environmental Monitoring using SiWG917](https://github.com/AdityaKolluru05/Classroom-monitoring_using_SiWG917-Development-Board) | IoT-based classroom monitoring system using the SiWG917 to track temperature, humidity, and noise, publishing data to ThingSpeak via MQTT with automated email alerts. | [Aditya Kolluru](https://github.com/AdityaKolluru05) |
+
 | [SiWG917 Digital Twin](https://github.com/gnaneshchandragupta17-cyber/siwg917-digital-twin) | Industrial machine monitoring and digital twin system using the Silicon Labs SiWG917 Wi-Fi SoC, with sensor acquisition, AI-based health prediction, remaining useful life prediction, backend services, and a web dashboard. | [gnaneshchandragupta17-cyber](https://github.com/gnaneshchandragupta17-cyber) |
 | [twindock](https://github.com/m0hiith/twindock) | Browser-based 3D digital twin of a warehouse and factory, driven live over Wi-Fi/MQTT by a SiWx917 (BRD2605A) dev kit running custom WiSeConnect C firmware that reports status and buttons and takes LED commands. Everything except the board is a clearly labelled simulation. | [m0hiith](https://github.com/m0hiith) |
 | [SiWG917-SafeHaven](https://github.com/muralikrishnapalisetti/SiWG917-SafeHaven) | A safety-monitoring prototype built with the Silicon Labs SiWG917/SiWx917 that streams microphone audio over Wi-Fi UDP to a host PC for local Vosk speech recognition. A configured emergency phrase can trigger event validation and automatic webcam video evidence capture on the host. | [muralikrishnapalisetti](https://github.com/muralikrishnapalisetti) |
