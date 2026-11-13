@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [MiniFace for SiWG917 BRD2605A](https://github.com/TharunBabu-05/Silicon_labs_SiWG917_BRD2605A) | An interactive VCOM-native desktop interface for the Silicon Labs SiWG917 BRD2605A. It provides on-demand Wi-Fi configuration, live board telemetry, and audio diagnostics while conserving RAM when tools are closed. | [TharunBabu-05](https://github.com/TharunBabu-05) |
 | [Si917 Edge-AI Predictive Maintenance](https://github.com/Saisriram53/si917-predictive-maintenance) | Real-time Edge-AI vibration and environmental anomaly detection with predictive maintenance dashboard using Silicon Labs Si917 SoC and WiSeConnect SDK. | [Saisriram53](https://github.com/Saisriram53) |
 | [Classroom Environmental Monitoring using SiWG917](https://github.com/AdityaKolluru05/Classroom-monitoring_using_SiWG917-Development-Board) | IoT-based classroom monitoring system using the SiWG917 to track temperature, humidity, and noise, publishing data to ThingSpeak via MQTT with automated email alerts. | [Aditya Kolluru](https://github.com/AdityaKolluru05) |
 | [SiWG917 Digital Twin](https://github.com/gnaneshchandragupta17-cyber/siwg917-digital-twin) | Industrial machine monitoring and digital twin system using the Silicon Labs SiWG917 Wi-Fi SoC, with sensor acquisition, AI-based health prediction, remaining useful life prediction, backend services, and a web dashboard. | [gnaneshchandragupta17-cyber](https://github.com/gnaneshchandragupta17-cyber) |
