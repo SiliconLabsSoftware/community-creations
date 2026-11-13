@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Si917 Edge-AI Predictive Maintenance](https://github.com/Saisriram53/si917-predictive-maintenance) | Real-time Edge-AI vibration and environmental anomaly detection with predictive maintenance dashboard using Silicon Labs Si917 SoC and WiSeConnect SDK. | [Saisriram53](https://github.com/Saisriram53) |
 | [Classroom Environmental Monitoring using SiWG917](https://github.com/AdityaKolluru05/Classroom-monitoring_using_SiWG917-Development-Board) | IoT-based classroom monitoring system using the SiWG917 to track temperature, humidity, and noise, publishing data to ThingSpeak via MQTT with automated email alerts. | [Aditya Kolluru](https://github.com/AdityaKolluru05) |
 | [SiWG917 Digital Twin](https://github.com/gnaneshchandragupta17-cyber/siwg917-digital-twin) | Industrial machine monitoring and digital twin system using the Silicon Labs SiWG917 Wi-Fi SoC, with sensor acquisition, AI-based health prediction, remaining useful life prediction, backend services, and a web dashboard. | [gnaneshchandragupta17-cyber](https://github.com/gnaneshchandragupta17-cyber) |
 | [twindock](https://github.com/m0hiith/twindock) | Browser-based 3D digital twin of a warehouse and factory, driven live over Wi-Fi/MQTT by a SiWx917 (BRD2605A) dev kit running custom WiSeConnect C firmware that reports status and buttons and takes LED commands. Everything except the board is a clearly labelled simulation. | [m0hiith](https://github.com/m0hiith) |
