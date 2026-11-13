@@ -42,12 +42,12 @@ Apache License 2.0 — see LICENSE file in the project repository. No third-part
 
 ## 9. Maintainers / Contacts
 | Name           | Role      | Contact Information             |
-| -------------- | --------- | ------------------------------- | 
+| -------------- | --------- | ------------------------------- |
 | Jerlin Jeba MJ | Developer | mjjerlin@gmail.com              |
-| Ilakkiya V     | Developer | ilakkiya.v.2006@gmail.com       | 
-| Kanishka M     | Developer | kanishkamuthukumar16@gmail.com  | 
-| Riyash M       | Developer | riyashmoorthy@gmail.com         |          
-| Ramprasath V   | Developer | veluramprasath777@gmail.com     | 
+| Ilakkiya V     | Developer | ilakkiya.v.2006@gmail.com       |
+| Kanishka M     | Developer | kanishkamuthukumar16@gmail.com  |
+| Riyash M       | Developer | riyashmoorthy@gmail.com         |
+| Ramprasath V   | Developer | veluramprasath777@gmail.com     |
 
 **Full project repository:**
 https://github.com/mjjerlin-gif/BLU-PATH-Embedded-Web-Based-Indoor-Navigation-System_ECE_KPRIET
