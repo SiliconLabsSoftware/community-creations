@@ -37,7 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-
+| [AI-Driven-Smart-Emergency-Traffic-Management-System](https://github.com/jatinpratapsinghtomar-ec/AI-Driven-Smart-Emergency-Traffic-Management-System) | A Python-based smart traffic management simulation that dynamically adjusts traffic signals and prioritizes emergency vehicles to improve traffic flow and response times. Developed as an IoT-inspired intelligent transportation system project. | [jatinpratapsinghtomar-ec](https://github.com/jatinpratapsinghtomar-ec) |
 ## Documentation ##
 
 Official documentation can be found at our [Developer Documentation](https://www.silabs.com/support/training.ap-language_english) page.
