@@ -1,8 +1,8 @@
 name: 00-Check-Code-Convention
 on:
-  pull_request:
-    branches:
-      - main
+  #pull_request:
+    #branches:
+      #- main
 
   workflow_dispatch:
     inputs:
