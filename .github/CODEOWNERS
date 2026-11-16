@@ -1,13 +1,15 @@
 # CODEOWNERS for autoreview assigning in github
-/.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
+/.github/CODEOWNERS @SiliconLabsSoftware/Community-Apps-GitHub-Guardians
 
 # Applications
-/projects/platform/platform_applications/ @silabs-Joe
-/projects/z_wave/ @laurge
-/campaigns/XIAO-Showdown-2025 @SiliconLabsSoftware/community-creations-campaigns-reviewers
+# /projects/platform/platform_applications/ @silabs-Joe
+# /projects/z_wave/ @laurge
+# /campaigns/XIAO-Showdown-2025 @SiliconLabsSoftware/community-creations-campaigns-reviewers
 
 # TBD
 # /projects/proprietary/  @silabs-TiborL
 # /projects/wisun/
 # /projects/iot_utilities/
 # /projects/training/
+
+* @SiliconLabsSoftware/Community-Apps-GitHub-Guardians
