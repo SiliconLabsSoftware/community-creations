@@ -8,7 +8,7 @@ Wifi technology offers so many exciting possibilities, and we’d love to see wh
 
 1. Silicon Labs SiWx91x development kit
 2. Simplicity Studio 5
-3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+3. Compatible SDK version; you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
 5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Smart City IoT Platform](https://github.com/Somnathsuraj007/Smart_City) | Smart City IoT platform built with Silicon Labs SiWx917, featuring environmental monitoring, smart parking, and noise pollution monitoring with MQTT-based telemetry and a unified dashboard. | [Somnathsuraj007](https://github.com/Somnathsuraj007) |
 | [Engine Monitoring System](https://github.com/Karthikeyang61/Engine-Monitoring-System) | An IoT-based smart engine health monitoring system using the SiWx917 board to monitor temperature, vibration, noise, and exhaust gas levels in real time. The system detects abnormal engine conditions, provides alerts, and displays engine health data on a web dashboard and onboard display for preventive maintenance. | [Karthikeyang61](https://github.com/Karthikeyang61) |
 | [SolarOps](https://github.com/Pankaj-Singh-Rawat/SolarOps) | An enterprise-grade smart grid optimization system designed for Silicon Labs wireless hardware targets. It integrates a local-autonomy edge state machine, a containerized multi-service backend with automated Docker health checks, and a predictive AI engine forecasting day-ahead solar yield. | [@Pankaj-Singh-Rawat](https://github.com/Pankaj-Singh-Rawat) |
 | [IoT Smart Helmet](https://github.com/Arjxn404/IoT-Smart-Helmet_ECE_KPRIET) | An IoT-enabled smart helmet built with the Silicon Labs SiWx917 platform for industrial worker safety. It provides Wi-Fi connectivity and enables hazard monitoring, emergency alerts, and real-time safety status reporting. | [Arjxn404](https://github.com/Arjxn404) |
