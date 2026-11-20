@@ -1,0 +1,14 @@
+Concept Summary
+The Research Platform demonstrates how a single low-power Seeed XIAO MG24 Sense module—with its integrated 6-axis IMU, analog microphone, BLE, and Cortex-M33 MCU—can serve as a versatile edge device for health, wellness, and industrial safety, reliability monitoring.
+All five applications share the same sensing, wireless, and data-logging framework while differing only in firmware logic and analytics.
+This was developed as part of a course in Medical Device Diagnostics Design and Manufacturing. The first lecture on this was delivered on October 20 at the St.Louis University, MO.
+The project was originally started to encourage my LinkdIn followers to participate in the XIAO Competition.
+Each module was presented in my LinkdIn posts to showcase and encourage.
+The Basic Pack is designed for quick prototyping of Medical Device concepts for University Students.
+Applications Demonstrated
+	Module	Purpose	Key MG24 Sense Features Used	Output Visualization
+1	Fall Detection	Detect sudden posture change or impact for elderly safety	IMU (accel + gyro)	Alert via BLE / MQTT → Node-RED dashboard
+2	Equipment Vibration Monitor	Identify abnormal vibration patterns in machines	IMU (accel) + FFT analysis	RMS vibration trend & threshold alarm
+3	Heart Rate Monitor	Derive heart-rate signal from subtle body motions or surface vibrations	Mic + low-freq IMU envelope	Real-time BPM gauge on GUI
+4	Gait Analysis	Assess step symmetry & stability using multiple nodes	IMU fusion across sensors	Step-phase plot & asymmetry index
+5	Sleep Monitoring	Detect restlessness, position shifts, and respiration motion	IMU (low freq band)	Sleep-movement score and timeline
