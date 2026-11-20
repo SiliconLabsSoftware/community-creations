@@ -35,7 +35,7 @@ Example row (copy/paste and edit):
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
-|:--|:--|:--|
+|https://github.com/23ECE046/Silicon-Labs-Project.git|Presentation & Media Controller Gesture Based Smart Controller for Presentations and Media "Speak the word, wave the wrist — the slide steps forward; rotate your arm and the room obeys."|https://github.com/23ECE046|
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
