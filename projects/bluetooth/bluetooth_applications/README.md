@@ -35,7 +35,7 @@ Example row (copy/paste and edit):
 ```
 
 | Project (GitHub) | Description | Author/Contributor |
-|:--|:--|:--|
+| [AI-based-predicitve-farming](https://github.com/Pm0407/AI-based-predicitve-farming) | AI-powered predictive farming solution using Silicon Labs Bluetooth technology for smart agriculture monitoring and automation. | [PM0407](https://github.com/PM0407) |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
