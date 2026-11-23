@@ -38,6 +38,7 @@ Example row (copy/paste and edit):
 |:--|:--|:--|
 | [Transformer Fault Detector](https://github.com/User8085/Transformer-Fault-Detector) | TinyML-based acoustic anomaly detection for power transformer fault prediction using Silicon Labs EFR32xG24 and Bluetooth LE. The system performs on-device inference and transmits BLE alerts when transformer faults are detected. | [User8085](https://github.com/User8085) |
 
+
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
 - For issues with a listed project, use the linked repository's issue tracker.

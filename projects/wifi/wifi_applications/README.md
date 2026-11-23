@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [real-time-gesture-recognition-siwx917](https://github.com/Sree-Charan05/real-time-gesture-recognition-siwx917) | Real-time gesture recognition using the onboard IMU of the Silicon Labs SiWx917 SoC with RTOS-based sensor processing. | [Sree-Charan05](https://github.com/Sree-Charan05) |
 | [SiWx917 HC-SR04 Ultrasonic Distance](https://github.com/sp678-crypto/siwx917-hcsr04-ultrasonic) | HC-SR04 ultrasonic distance measurement on SiWx917 (BRD2605A) using a custom GPIO echo-timing driver and sleep timer. Arduino generates the trigger pulse. | [sp678-crypto](https://github.com/sp678-crypto) |
 | [Smart City IoT Platform](https://github.com/Somnathsuraj007/Smart_City) | Smart City IoT platform built with Silicon Labs SiWx917, featuring environmental monitoring, smart parking, and noise pollution monitoring with MQTT-based telemetry and a unified dashboard. | [Somnathsuraj007](https://github.com/Somnathsuraj007) |
 | [Engine Monitoring System](https://github.com/Karthikeyang61/Engine-Monitoring-System) | An IoT-based smart engine health monitoring system using the SiWx917 board to monitor temperature, vibration, noise, and exhaust gas levels in real time. The system detects abnormal engine conditions, provides alerts, and displays engine health data on a web dashboard and onboard display for preventive maintenance. | [Karthikeyang61](https://github.com/Karthikeyang61) |
