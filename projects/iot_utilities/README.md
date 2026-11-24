@@ -19,8 +19,10 @@ As a community-driven project, we encourage contributions, feedback, and collabo
 
 ## Submodules ##
 
-- **iot_utilities_applications:**
-    Tool applications, plugins, extensions, that can be used for MCU monitoring, debugging, wireless traffic capturing or any development assistant.
+| Project (GitHub) | Description | Author/Contributor |
+|:--|:--|:--|
+|[AI-Based Bird Behavior Monitoring using SiWx917](https://github.com/SahilBhusan/Silicon_labs)|AI-powered bird classification and behavior monitoring system built using the Silicon Labs SiWx917 Wi-Fi, combining edge intelligence, wireless sensor networking, and cloud analytics for real-time wildlife monitoring.|[SahilBhusan](https://github.com/SahilBhusan)|
+
 
 ## Documentation ##
 
