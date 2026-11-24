@@ -4,7 +4,7 @@
     <h1>IoT Utilities</h1>
   </td>
   <td align="left" valign="middle">
-    <a href="https://www.silabs.com/mcu/32-bit">
+    <a href="https://www.silabs.com/software-and-tools/simplicity-studio/developer-tools">
       <img src="http://pages.silabs.com/rs/634-SLU-379/images/WGX-transparent.png"  title="Silicon Labs Gecko and Wireless Gecko MCUs" alt="EFM32 32-bit Microcontrollers" width="250"/>
     </a>
   </td>

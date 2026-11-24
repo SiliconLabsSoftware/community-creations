@@ -59,8 +59,9 @@ To help others reproduce and learn from your project, include a `README.md` with
 
 ## Contributor License Agreement (CLA)
 
-This repository uses a CLA process. See the CLA document here:
-https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md
+Contributors must sign a CLA before their contributions can be accepted. Read the [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).
+
+**Note:** The CLA signature automation requires commits to use a [public email address](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-on-github).
 
 ## Reporting Issues
 
