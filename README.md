@@ -3,6 +3,38 @@
 Welcome to the **Silicon Labs Community Creations** repository!
 This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies. Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
 
+## Table of Content
+
+- [What's This About?](#whats-this-about)
+- [Who Can Contribute?](#who-can-contribute)
+- [What Kind of Projects Can I Submit?](#what-kind-of-projects-can-i-submit)
+- [How to Contribute](#how-to-contribute)
+- [Project List](#project-list)
+  - [Bluetooth / Bluetooth Mesh](#bluetooth--bluetooth-mesh)
+  - [CircuitPython](#circuitpython)
+  - [Energy Harvesting](#energy-harvesting)
+  - [Hardware Prototypes](#hardware-prototypes)
+  - [IoT Utilities (Tools)](#iot-utilities-tools)
+  - [Matter](#matter)
+  - [Middleware](#middleware)
+  - [Platform](#platform)
+  - [Proprietary](#proprietary)
+  - [Training](#training)
+  - [Wi-Fi](#wi-fi)
+  - [Wi-Sun](#wi-sun)
+  - [Z-Wave](#z-wave)
+  - [Zepyhr](#zepyhr)
+  - [Zigbee](#zigbee)
+- [Highlighted Projects](#highlighted-projects)
+- [Join the Community](#join-the-community)
+- [Reporting Bugs/Issues and Posting Questions and Comments](#reporting-bugsissues-and-posting-questions-and-comments)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+
+
+
+
+
 ## What's This About?
 
 At Silicon Labs, we believe in the power of community-driven innovation. This repository is a hub for developers, makers, and hobbyists to:
