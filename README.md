@@ -1,7 +1,10 @@
 # Silicon Labs Community Creations
 
 Welcome to the **Silicon Labs Community Creations** repository!
-This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies. Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
+This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies.
+Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
+
+Add the `silicon-labs` topic to your project’s GitHub repository to help more people discover what you’ve created!
 
 ## Table of Content
 
