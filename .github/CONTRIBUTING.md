@@ -2,7 +2,7 @@
 
 This repository is a directory of community projects built with Silicon Labs technologies. Instead of hosting project source code here, we accept contributions as **directory entries** that link to a GitHub repository and provide a short description.
 
-If you want to share your project, you will submit a pull request that edits the appropriate listing table under `projects/`.
+If you want to share your project, you will submit a pull request that edits the appropriate table of Project List in `/README.md`.
 
 ## What You Can Submit
 
@@ -12,7 +12,7 @@ Each new entry must include:
 - A **1-2 sentence description**
 - A link to your **GitHub profile**
 
-## What We Do Not Accept
+## What We Do NOT Accept
 
 - Project source code added to this repository
 - Project binaries or build artifacts
@@ -21,13 +21,11 @@ Each new entry must include:
 
 ## Where to Add Your Entry
 
-Pick the single best-matching category under `projects/` and add a row to the table in the corresponding `*_applications/README.md` file.
+Pick the single best-matching table under Project List section at `/README.md` and add a row to the table as shown by the example below.
 
-Examples:
-
-- `projects/bluetooth/bluetooth_applications/README.md`
-- `projects/zigbee/zigbee_applications/README.md`
-- `projects/wifi/wifi_applications/README.md`
+```markdown
+| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
+```
 
 To reduce merge conflicts when multiple PRs are opened around the same time, please append your new row to the bottom of the table and do not reorder or edit existing rows.
 
@@ -53,15 +51,10 @@ To help others reproduce and learn from your project, include a `README.md` with
 
 1. Fork this repository.
 2. Create a branch in your fork.
-3. Edit the relevant `projects/**/**_applications/README.md` listing table and append your row at the bottom.
+3. Edit the relevant table in `/README.md` and append your row at the bottom.
 4. Commit your change.
-5. Open a pull request and fill out the pull request template (include the GitHub URL and the category file you edited).
+5. Open a pull request and fill out the pull request template.
 
-## Contributor License Agreement (CLA)
-
-Contributors must sign a CLA before their contributions can be accepted. Read the [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).
-
-**Note:** The CLA signature automation requires commits to use a [public email address](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-on-github).
 
 ## Reporting Issues
 
