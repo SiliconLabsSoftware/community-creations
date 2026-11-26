@@ -21,7 +21,7 @@ Each new entry must include:
 
 ## Where to Add Your Entry
 
-Pick the single best-matching table under Project List section at `/README.md` and add a row to the table as shown by the example below.
+Pick the single best-matching table under the Project List section at `/README.md` and add a row to the table as shown by the example below.
 
 ```markdown
 | [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
