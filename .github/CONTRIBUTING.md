@@ -2,7 +2,7 @@
 
 This repository is a directory of community projects built with Silicon Labs technologies. Instead of hosting project source code here, we accept contributions as **directory entries** that link to a GitHub repository and provide a short description.
 
-If you want to share your project, you will submit a pull request that edits the appropriate table of Project List in `/README.md`.
+If you want to share your project, you will submit a pull request that edits the appropriate table of the Project List in `/README.md`.
 
 ## What You Can Submit
 
