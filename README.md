@@ -109,7 +109,7 @@ Example row (copy/paste and edit):
 ### Hardware Prototypes
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
-|   |   |   |
+| [FPGA-Based CNN Hardware Accelerator for Heart Murmur Detection](https://github.com/ronakmahlawat/https://github.com/ronakmahlawat/hardware_accelerator_for_murmur_detection) | Hardware prototype implementing a trained CNN model on an FPGA for fast, portable, low-power heart murmur detection from phonocardiogram (PCG) signals to enable scalable cardiac screening. | [ronakmahlawat](https://github.com/ronakmahlawat) |
 
 ### IoT Utilities (Tools)
 
